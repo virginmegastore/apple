@@ -2211,6 +2211,7 @@ This will generate unique classes for all provided built-in app images.
 }
 
 .channel-compare .selector-dropdown {
+  height: auto;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Helvetica Neue",
     "Helvetica", "Arial", sans-serif;
   font-size: 19px;

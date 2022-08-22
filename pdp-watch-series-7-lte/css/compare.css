@@ -1,0 +1,2393 @@
+.channel-html,
+.channel-html select,
+.channel-html button {
+  font-synthesis: none;
+  -moz-font-feature-settings: "kern";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  direction: ltr;
+  text-align: left;
+}
+
+.channel-html,
+.channel-html select,
+.channel-html button {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    "Helvetica Neue", "Helvetica", "Arial", sans-serif, "SF Pro Icons";
+}
+
+.channel-html
+  :focus[data-focus-method="mouse"]:not(input):not(textarea):not(select),
+.channel-html
+  :focus[data-focus-method="touch"]:not(input):not(textarea):not(select) {
+  outline: none;
+}
+
+.channel-html body,
+.channel-html select,
+.channel-html button {
+  font-synthesis: none;
+  -moz-font-feature-settings: "kern";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  direction: ltr;
+  text-align: left;
+}
+
+.channel-html
+  .button:focus[data-focus-method="mouse"]:not(input):not(textarea):not(select),
+.channel-html
+  .button:focus[data-focus-method="touch"]:not(input):not(textarea):not(select) {
+  box-shadow: none;
+}
+
+.channel-html
+  .colornav-link:focus[data-focus-method="mouse"]:not(input):not(textarea):not(select),
+.channel-html
+  .colornav-link:focus[data-focus-method="touch"]:not(input):not(textarea):not(select),
+.channel-html
+  .colornav-value:focus
+  ~ .colornav-link[data-focus-method="mouse"]:not(input):not(textarea):not(select),
+.channel-html
+  .colornav-value:focus
+  ~ .colornav-link[data-focus-method="touch"]:not(input):not(textarea):not(select) {
+  box-shadow: none;
+}
+
+.channel-compare .compare-section,
+.channel-compare .selector-table {
+  position: relative;
+}
+
+.channel-compare select {
+  box-sizing: border-box;
+}
+
+.channel-compare .selector-table {
+  padding-top: 10px;
+  margin-bottom: 60px;
+}
+
+@media only screen and (max-width: 1068px) {
+  .channel-compare .selector-table {
+    margin-bottom: 42px;
+  }
+}
+
+@media only screen and (max-width: 734px) {
+  .channel-compare .selector-table {
+    margin-bottom: 24px;
+  }
+}
+
+.channel-compare .selector-table .compare-row {
+  margin: 0;
+}
+
+.channel-compare .selector-table .compare-rowheader {
+  height: 0;
+}
+
+.channel-compare .selector-element {
+  position: relative;
+  width: 100%;
+  transition: border-color 200ms ease;
+  border: solid 1px #d6d6d6;
+  border-radius: 12px;
+}
+
+.channel-compare .selector-element:hover {
+  border: solid 1px #666;
+}
+
+@media only screen and (max-width: 734px) {
+  .channel-compare .selector-element {
+    border: none;
+    border-bottom: 1px solid #d6d6d6;
+    border-radius: 0px;
+  }
+
+  .channel-compare .selector-element:hover {
+    border: none;
+    border-radius: 0px;
+    border-bottom: 1px solid #d6d6d6;
+  }
+}
+
+.channel-compare .selector-element::before {
+  content: "";
+  width: 44px;
+  position: absolute;
+  background: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0) 0%,
+    white 50%,
+    white 100%
+  );
+  top: 0;
+  height: 100%;
+  right: 5px;
+  z-index: 0;
+  pointer-events: none;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+@media only screen and (max-width: 1068px) {
+  .channel-compare .selector-element::before {
+    width: 60px;
+  }
+}
+
+@media only screen and (max-width: 734px) {
+  .channel-compare .selector-element::before {
+    width: 25px;
+  }
+}
+
+@media only screen and (max-width: 734px) {
+  .channel-compare .selector-element {
+    margin-right: 0;
+  }
+}
+
+.channel-compare .selector-dropdown {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Helvetica Neue",
+    "Helvetica", "Arial", sans-serif;
+  font-size: 19px;
+  line-height: 1.4737642105;
+  font-weight: 600;
+  letter-spacing: 0em;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    "Helvetica Neue", "Helvetica", "Arial", sans-serif, "SF Pro Icons";
+  width: 100%;
+  margin: 0;
+  background: transparent;
+  border: 0;
+  border-radius: 0;
+  overflow: hidden;
+  -webkit-appearance: none;
+  appearance: none;
+  cursor: pointer;
+  outline: none;
+  padding: 16px;
+}
+
+@media only screen and (max-width: 1068px) {
+  .channel-compare .selector-dropdown {
+    font-size: 17px;
+    line-height: 1.3529611765;
+    font-weight: 600;
+    letter-spacing: 0em;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+      "Helvetica Neue", "Helvetica", "Arial", sans-serif, "SF Pro Icons";
+  }
+}
+
+@media only screen and (max-width: 734px) {
+  .channel-compare .selector-dropdown {
+    font-size: 14px;
+    line-height: 1.4285914286;
+    font-weight: 600;
+    letter-spacing: 0em;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+      "Helvetica Neue", "Helvetica", "Arial", sans-serif, "SF Pro Icons";
+  }
+}
+
+.channel-compare .selector-dropdown:focus {
+  border-radius: 12px;
+  box-shadow: 0 0 0 4px rgba(131, 192, 253, 0.5);
+}
+
+@media only screen and (max-width: 734px) {
+  .channel-compare .selector-dropdown {
+    font-size: 100%;
+    padding-bottom: 11px;
+    padding-left: 0px;
+    padding-top: 11px;
+  }
+
+  .channel-compare .selector-dropdown:focus {
+    border-radius: 5px;
+  }
+}
+
+.channel-html .icon-chevrondown::before,
+.channel-html .icon-chevrondown::after {
+  content: "\f303";
+}
+
+.channel-html .icon-check::before,
+.channel-html .icon-check::after {
+  content: "\f30b";
+}
+
+.channel-html .more::before,
+.channel-html .more::after {
+  content: "\f301";
+}
+
+.channel-compare .selector-icon {
+  display: block;
+  position: absolute;
+  top: 4px;
+  right: 0;
+  font-size: 20px;
+  line-height: 1;
+  color: #0066cc;
+  padding-right: 10px;
+  padding-top: 15px;
+  pointer-events: none;
+  right: 6px;
+}
+
+.channel-compare .selector-icon:after {
+  pointer-events: none;
+}
+
+@media only screen and (max-width: 1068px) {
+  .channel-compare .selector-icon {
+    top: 2px;
+  }
+}
+
+@media only screen and (max-width: 734px) {
+  .channel-compare .selector-icon {
+    font-size: 24px;
+    top: -8px;
+    padding-right: 0;
+    right: 0px;
+  }
+}
+
+.image-icon_ecg {
+  width: 60px;
+  height: 49px;
+  background-size: 60px 49px;
+  background-repeat: no-repeat;
+  background-image: url(../images/compare/icon_ecg_large.png?1630947391157);
+}
+
+.image-header_s6_44mm_silver_aluminum_case_white_sport_band {
+  width: 189px;
+  height: 225px;
+  background-size: 189px 225px;
+  background-repeat: no-repeat;
+  background-image: url(../images/compare/header_s6_44mm_silver_aluminum_case_white_sport_band_large.png?1630947391158);
+}
+
+.image-header_s4_44mm_silver_aluminum_case_white_sport_band {
+  width: 189px;
+  height: 225px;
+  background-size: 189px 225px;
+  background-repeat: no-repeat;
+  background-image: url(../images/compare/header_s4_44mm_silver_aluminum_case_white_sport_band_large.png?1630947391158);
+}
+
+.image-header_s3_42mm_silver_aluminum_case_white_sport_band {
+  width: 182px;
+  height: 225px;
+  background-size: 182px 225px;
+  background-repeat: no-repeat;
+  background-image: url(../images/compare/header_s3_42mm_silver_aluminum_case_white_sport_band_large.png?1630947391159);
+}
+
+.image-icon_altimeter {
+  width: 51px;
+  height: 51px;
+  background-size: 51px 51px;
+  background-repeat: no-repeat;
+  background-image: url(../images/compare/icon_altimeter_large.png?1630947391159);
+}
+
+.image-header_se_44mm_gold_aluminum_case_starlight_sport_band {
+  width: 188px;
+  height: 225px;
+  background-size: 188px 225px;
+  background-repeat: no-repeat;
+  background-image: url(../images/compare/header_se_44mm_gold_aluminum_case_starlight_sport_band_large.png?1630947391159);
+}
+
+.image-icon_retina_display {
+  width: 46px;
+  height: 52px;
+  background-size: 46px 52px;
+  background-repeat: no-repeat;
+  background-image: url(../images/compare/icon_retina_display_large.png?1630947391160);
+}
+
+.image-icon_case_size_44_40 {
+  width: 55px;
+  height: 52px;
+  background-size: 55px 52px;
+  background-repeat: no-repeat;
+  background-image: url(../images/compare/icon_case_size_44_40_large.png?1630947391160);
+}
+
+.image-icon_case_size_42_38 {
+  width: 55px;
+  height: 52px;
+  background-size: 55px 52px;
+  background-repeat: no-repeat;
+  background-image: url(../images/compare/icon_case_size_42_38_large.png?1630947391160);
+}
+
+.image-icon_heart_rate {
+  width: 53px;
+  height: 48px;
+  background-size: 53px 48px;
+  background-repeat: no-repeat;
+  background-image: url(../images/compare/icon_heart_rate_large.png?1630947391160);
+}
+
+.image-icon_fall_detection {
+  width: 51px;
+  height: 51px;
+  background-size: 51px 51px;
+  background-repeat: no-repeat;
+  background-image: url(../images/compare/icon_fall_detection_large.png?1630947391160);
+}
+
+.image-icon_blood_oxygen {
+  width: 51px;
+  height: 51px;
+  background-size: 51px 51px;
+  background-repeat: no-repeat;
+  background-image: url(../images/compare/icon_blood_oxygen_large.png?1630947391160);
+}
+
+.image-header_s5_44mm_silver_aluminum_case_white_sport_band {
+  width: 189px;
+  height: 225px;
+  background-size: 189px 225px;
+  background-repeat: no-repeat;
+  background-image: url(../images/compare/header_s5_44mm_silver_aluminum_case_white_sport_band_large.png?1630947391161);
+}
+
+.image-icon_always_on_retina_display_s6 {
+  width: 46px;
+  height: 52px;
+  background-size: 46px 52px;
+  background-repeat: no-repeat;
+  background-image: url(../images/compare/icon_always_on_retina_display_s6_large.png?1630947391161);
+}
+
+.image-header_s1_42mm_silver_aluminum_case_white_sport_band {
+  width: 181px;
+  height: 225px;
+  background-size: 181px 225px;
+  background-repeat: no-repeat;
+  background-image: url(../images/compare/header_s1_42mm_silver_aluminum_case_white_sport_band_large.png?1630947391161);
+}
+
+.image-header_s2_42mm_silver_aluminum_case_white_sport_band {
+  width: 182px;
+  height: 225px;
+  background-size: 182px 225px;
+  background-repeat: no-repeat;
+  background-image: url(../images/compare/header_s2_42mm_silver_aluminum_case_white_sport_band_large.png?1630947391162);
+}
+
+.image-icon_always_on_retina_display {
+  width: 46px;
+  height: 52px;
+  background-size: 46px 52px;
+  background-repeat: no-repeat;
+  background-image: url(../images/compare/icon_always_on_retina_display_large.png?1630947391162);
+}
+
+.image-icon_charging {
+  width: 51px;
+  height: 51px;
+  background-size: 51px 51px;
+  background-repeat: no-repeat;
+  background-image: url(../images/compare/icon_charging_large.png?1630947391162);
+}
+
+.image-icon_always_on_altimeter {
+  width: 51px;
+  height: 51px;
+  background-size: 51px 51px;
+  background-repeat: no-repeat;
+  background-image: url(../images/compare/icon_always_on_altimeter_large.png?1630947391162);
+}
+
+.image-icon_emergency_calling {
+  width: 48px;
+  height: 48px;
+  background-size: 48px 48px;
+  background-repeat: no-repeat;
+  background-image: url(../images/compare/icon_emergency_calling_large.png?1630947391162);
+}
+
+.image-icon_cellular {
+  width: 44px;
+  height: 45px;
+  background-size: 44px 45px;
+  background-repeat: no-repeat;
+  background-image: url(../images/compare/icon_cellular_large.png?1630947391162);
+}
+
+.image-icon_retina_display_s1_s2_s3 {
+  width: 44px;
+  height: 52px;
+  background-size: 44px 52px;
+  background-repeat: no-repeat;
+  background-image: url(../images/compare/icon_retina_display_s1_s2_s3_large.png?1630947391162);
+}
+
+.image-icon_case_size_45_41 {
+  width: 56px;
+  height: 52px;
+  background-size: 56px 52px;
+  background-repeat: no-repeat;
+  background-image: url(../images/compare/icon_case_size_45_41_large.png?1630947391162);
+}
+
+.image-icon_family_setup {
+  width: 74px;
+  height: 42px;
+  background-size: 74px 42px;
+  background-repeat: no-repeat;
+  background-image: url(../images/compare/icon_family_setup_large.png?1630947391163);
+}
+
+.image-header_s7_45mm_green_aluminum_case_clover_sport_band {
+  width: 189px;
+  height: 225px;
+  background-size: 189px 225px;
+  background-repeat: no-repeat;
+  background-image: url(../images/compare/header_s7_45mm_green_aluminum_case_clover_sport_band_large.png?1630947391163);
+}
+
+@media (-webkit-min-device-pixel-ratio: 1.5),
+  (min-resolution: 144dpi),
+  only screen and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (min-resolution: 1.5dppx) {
+  .image-icon_case_size_42_38 {
+    width: 55px;
+    height: 52px;
+    background-size: 55px 52px;
+    background-repeat: no-repeat;
+    background-image: url(../images/compare/icon_case_size_42_38_large_2x.png?1630947391157);
+  }
+}
+
+@media (-webkit-min-device-pixel-ratio: 1.5),
+  (min-resolution: 144dpi),
+  only screen and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (min-resolution: 1.5dppx) {
+  .image-icon_ecg {
+    width: 60px;
+    height: 49px;
+    background-size: 60px 49px;
+    background-repeat: no-repeat;
+    background-image: url(../images/compare/icon_ecg_large_2x.png?1630947391158);
+  }
+}
+
+@media (-webkit-min-device-pixel-ratio: 1.5),
+  (min-resolution: 144dpi),
+  only screen and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (min-resolution: 1.5dppx) {
+  .image-icon_always_on_retina_display_s6 {
+    width: 46px;
+    height: 52px;
+    background-size: 46px 52px;
+    background-repeat: no-repeat;
+    background-image: url(../images/compare/icon_always_on_retina_display_s6_large_2x.png?1630947391158);
+  }
+}
+
+@media (-webkit-min-device-pixel-ratio: 1.5),
+  (min-resolution: 144dpi),
+  only screen and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (min-resolution: 1.5dppx) {
+  .image-header_s6_44mm_silver_aluminum_case_white_sport_band {
+    width: 189px;
+    height: 225px;
+    background-size: 189px 225px;
+    background-repeat: no-repeat;
+    background-image: url(../images/compare/header_s6_44mm_silver_aluminum_case_white_sport_band_large_2x.png?1630947391158);
+  }
+}
+
+@media (-webkit-min-device-pixel-ratio: 1.5),
+  (min-resolution: 144dpi),
+  only screen and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (min-resolution: 1.5dppx) {
+  .image-icon_charging {
+    width: 51px;
+    height: 51px;
+    background-size: 51px 51px;
+    background-repeat: no-repeat;
+    background-image: url(../images/compare/icon_charging_large_2x.png?1630947391158);
+  }
+}
+
+@media (-webkit-min-device-pixel-ratio: 1.5),
+  (min-resolution: 144dpi),
+  only screen and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (min-resolution: 1.5dppx) {
+  .image-icon_retina_display {
+    width: 46px;
+    height: 52px;
+    background-size: 46px 52px;
+    background-repeat: no-repeat;
+    background-image: url(../images/compare/icon_retina_display_large_2x.png?1630947391158);
+  }
+}
+
+@media (-webkit-min-device-pixel-ratio: 1.5),
+  (min-resolution: 144dpi),
+  only screen and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (min-resolution: 1.5dppx) {
+  .image-icon_altimeter {
+    width: 51px;
+    height: 51px;
+    background-size: 51px 51px;
+    background-repeat: no-repeat;
+    background-image: url(../images/compare/icon_altimeter_large_2x.png?1630947391158);
+  }
+}
+
+@media (-webkit-min-device-pixel-ratio: 1.5),
+  (min-resolution: 144dpi),
+  only screen and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (min-resolution: 1.5dppx) {
+  .image-icon_always_on_retina_display {
+    width: 46px;
+    height: 52px;
+    background-size: 46px 52px;
+    background-repeat: no-repeat;
+    background-image: url(../images/compare/icon_always_on_retina_display_large_2x.png?1630947391159);
+  }
+}
+
+@media (-webkit-min-device-pixel-ratio: 1.5),
+  (min-resolution: 144dpi),
+  only screen and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (min-resolution: 1.5dppx) {
+  .image-header_s5_44mm_silver_aluminum_case_white_sport_band {
+    width: 189px;
+    height: 225px;
+    background-size: 189px 225px;
+    background-repeat: no-repeat;
+    background-image: url(../images/compare/header_s5_44mm_silver_aluminum_case_white_sport_band_large_2x.png?1630947391159);
+  }
+}
+
+@media (-webkit-min-device-pixel-ratio: 1.5),
+  (min-resolution: 144dpi),
+  only screen and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (min-resolution: 1.5dppx) {
+  .image-header_s1_42mm_silver_aluminum_case_white_sport_band {
+    width: 181px;
+    height: 225px;
+    background-size: 181px 225px;
+    background-repeat: no-repeat;
+    background-image: url(../images/compare/header_s1_42mm_silver_aluminum_case_white_sport_band_large_2x.png?1630947391159);
+  }
+}
+
+@media (-webkit-min-device-pixel-ratio: 1.5),
+  (min-resolution: 144dpi),
+  only screen and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (min-resolution: 1.5dppx) {
+  .image-header_s2_42mm_silver_aluminum_case_white_sport_band {
+    width: 182px;
+    height: 225px;
+    background-size: 182px 225px;
+    background-repeat: no-repeat;
+    background-image: url(../images/compare/header_s2_42mm_silver_aluminum_case_white_sport_band_large_2x.png?1630947391159);
+  }
+}
+
+@media (-webkit-min-device-pixel-ratio: 1.5),
+  (min-resolution: 144dpi),
+  only screen and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (min-resolution: 1.5dppx) {
+  .image-icon_heart_rate {
+    width: 53px;
+    height: 48px;
+    background-size: 53px 48px;
+    background-repeat: no-repeat;
+    background-image: url(../images/compare/icon_heart_rate_large_2x.png?1630947391159);
+  }
+}
+
+@media (-webkit-min-device-pixel-ratio: 1.5),
+  (min-resolution: 144dpi),
+  only screen and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (min-resolution: 1.5dppx) {
+  .image-icon_fall_detection {
+    width: 51px;
+    height: 51px;
+    background-size: 51px 51px;
+    background-repeat: no-repeat;
+    background-image: url(../images/compare/icon_fall_detection_large_2x.png?1630947391160);
+  }
+}
+
+@media (-webkit-min-device-pixel-ratio: 1.5),
+  (min-resolution: 144dpi),
+  only screen and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (min-resolution: 1.5dppx) {
+  .image-icon_family_setup {
+    width: 74px;
+    height: 42px;
+    background-size: 74px 42px;
+    background-repeat: no-repeat;
+    background-image: url(../images/compare/icon_family_setup_large_2x.png?1630947391160);
+  }
+}
+
+@media (-webkit-min-device-pixel-ratio: 1.5),
+  (min-resolution: 144dpi),
+  only screen and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (min-resolution: 1.5dppx) {
+  .image-icon_always_on_altimeter {
+    width: 51px;
+    height: 51px;
+    background-size: 51px 51px;
+    background-repeat: no-repeat;
+    background-image: url(../images/compare/icon_always_on_altimeter_large_2x.png?1630947391160);
+  }
+}
+
+@media (-webkit-min-device-pixel-ratio: 1.5),
+  (min-resolution: 144dpi),
+  only screen and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (min-resolution: 1.5dppx) {
+  .image-icon_retina_display_s1_s2_s3 {
+    width: 44px;
+    height: 52px;
+    background-size: 44px 52px;
+    background-repeat: no-repeat;
+    background-image: url(../images/compare/icon_retina_display_s1_s2_s3_large_2x.png?1630947391160);
+  }
+}
+
+@media (-webkit-min-device-pixel-ratio: 1.5),
+  (min-resolution: 144dpi),
+  only screen and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (min-resolution: 1.5dppx) {
+  .image-icon_emergency_calling {
+    width: 48px;
+    height: 48px;
+    background-size: 48px 48px;
+    background-repeat: no-repeat;
+    background-image: url(../images/compare/icon_emergency_calling_large_2x.png?1630947391160);
+  }
+}
+
+@media (-webkit-min-device-pixel-ratio: 1.5),
+  (min-resolution: 144dpi),
+  only screen and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (min-resolution: 1.5dppx) {
+  .image-icon_blood_oxygen {
+    width: 51px;
+    height: 51px;
+    background-size: 51px 51px;
+    background-repeat: no-repeat;
+    background-image: url(../images/compare/icon_blood_oxygen_large_2x.png?1630947391161);
+  }
+}
+
+@media (-webkit-min-device-pixel-ratio: 1.5),
+  (min-resolution: 144dpi),
+  only screen and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (min-resolution: 1.5dppx) {
+  .image-header_s4_44mm_silver_aluminum_case_white_sport_band {
+    width: 189px;
+    height: 225px;
+    background-size: 189px 225px;
+    background-repeat: no-repeat;
+    background-image: url(../images/compare/header_s4_44mm_silver_aluminum_case_white_sport_band_large_2x.png?1630947391161);
+  }
+}
+
+@media (-webkit-min-device-pixel-ratio: 1.5),
+  (min-resolution: 144dpi),
+  only screen and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (min-resolution: 1.5dppx) {
+  .image-icon_case_size_44_40 {
+    width: 55px;
+    height: 52px;
+    background-size: 55px 52px;
+    background-repeat: no-repeat;
+    background-image: url(../images/compare/icon_case_size_44_40_large_2x.png?1630947391161);
+  }
+}
+
+@media (-webkit-min-device-pixel-ratio: 1.5),
+  (min-resolution: 144dpi),
+  only screen and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (min-resolution: 1.5dppx) {
+  .image-header_s3_42mm_silver_aluminum_case_white_sport_band {
+    width: 182px;
+    height: 225px;
+    background-size: 182px 225px;
+    background-repeat: no-repeat;
+    background-image: url(../images/compare/header_s3_42mm_silver_aluminum_case_white_sport_band_large_2x.png?1630947391161);
+  }
+}
+
+@media (-webkit-min-device-pixel-ratio: 1.5),
+  (min-resolution: 144dpi),
+  only screen and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (min-resolution: 1.5dppx) {
+  .image-icon_case_size_45_41 {
+    width: 56px;
+    height: 52px;
+    background-size: 56px 52px;
+    background-repeat: no-repeat;
+    background-image: url(../images/compare/icon_case_size_45_41_large_2x.png?1630947391162);
+  }
+}
+
+@media (-webkit-min-device-pixel-ratio: 1.5),
+  (min-resolution: 144dpi),
+  only screen and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (min-resolution: 1.5dppx) {
+  .image-header_s7_45mm_green_aluminum_case_clover_sport_band {
+    width: 189px;
+    height: 225px;
+    background-size: 189px 225px;
+    background-repeat: no-repeat;
+    background-image: url(../images/compare/header_s7_45mm_green_aluminum_case_clover_sport_band_large_2x.png?1630947391162);
+  }
+}
+
+@media (-webkit-min-device-pixel-ratio: 1.5),
+  (min-resolution: 144dpi),
+  only screen and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (min-resolution: 1.5dppx) {
+  .image-icon_cellular {
+    width: 44px;
+    height: 45px;
+    background-size: 44px 45px;
+    background-repeat: no-repeat;
+    background-image: url(../images/compare/icon_cellular_large_2x.png?1630947391163);
+  }
+}
+
+@media (-webkit-min-device-pixel-ratio: 1.5),
+  (min-resolution: 144dpi),
+  only screen and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (min-resolution: 1.5dppx) {
+  .image-header_se_44mm_gold_aluminum_case_starlight_sport_band {
+    width: 188px;
+    height: 225px;
+    background-size: 188px 225px;
+    background-repeat: no-repeat;
+    background-image: url(../images/compare/header_se_44mm_gold_aluminum_case_starlight_sport_band_large_2x.png?1630947391163);
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .image-header_s6_44mm_silver_aluminum_case_white_sport_band {
+    width: 167px;
+    height: 199px;
+    background-size: 167px 199px;
+    background-repeat: no-repeat;
+    background-image: url(../images/compare/header_s6_44mm_silver_aluminum_case_white_sport_band_medium.png?1630947391158);
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .image-header_s2_42mm_silver_aluminum_case_white_sport_band {
+    width: 161px;
+    height: 199px;
+    background-size: 161px 199px;
+    background-repeat: no-repeat;
+    background-image: url(../images/compare/header_s2_42mm_silver_aluminum_case_white_sport_band_medium.png?1630947391158);
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .image-header_s1_42mm_silver_aluminum_case_white_sport_band {
+    width: 160px;
+    height: 199px;
+    background-size: 160px 199px;
+    background-repeat: no-repeat;
+    background-image: url(../images/compare/header_s1_42mm_silver_aluminum_case_white_sport_band_medium.png?1630947391159);
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .image-header_s7_45mm_green_aluminum_case_clover_sport_band {
+    width: 167px;
+    height: 199px;
+    background-size: 167px 199px;
+    background-repeat: no-repeat;
+    background-image: url(../images/compare/header_s7_45mm_green_aluminum_case_clover_sport_band_medium.png?1630947391159);
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .image-header_s3_42mm_silver_aluminum_case_white_sport_band {
+    width: 161px;
+    height: 199px;
+    background-size: 161px 199px;
+    background-repeat: no-repeat;
+    background-image: url(../images/compare/header_s3_42mm_silver_aluminum_case_white_sport_band_medium.png?1630947391160);
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .image-header_s5_44mm_silver_aluminum_case_white_sport_band {
+    width: 167px;
+    height: 199px;
+    background-size: 167px 199px;
+    background-repeat: no-repeat;
+    background-image: url(../images/compare/header_s5_44mm_silver_aluminum_case_white_sport_band_medium.png?1630947391161);
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .image-header_s4_44mm_silver_aluminum_case_white_sport_band {
+    width: 167px;
+    height: 199px;
+    background-size: 167px 199px;
+    background-repeat: no-repeat;
+    background-image: url(../images/compare/header_s4_44mm_silver_aluminum_case_white_sport_band_medium.png?1630947391161);
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .image-header_se_44mm_gold_aluminum_case_starlight_sport_band {
+    width: 167px;
+    height: 199px;
+    background-size: 167px 199px;
+    background-repeat: no-repeat;
+    background-image: url(../images/compare/header_se_44mm_gold_aluminum_case_starlight_sport_band_medium.png?1630947391162);
+  }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  .image-header_s6_44mm_silver_aluminum_case_white_sport_band {
+    width: 167px;
+    height: 199px;
+    background-size: 167px 199px;
+    background-repeat: no-repeat;
+    background-image: url(../images/compare/header_s6_44mm_silver_aluminum_case_white_sport_band_medium_2x.png?1630947391158);
+  }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  .image-header_s3_42mm_silver_aluminum_case_white_sport_band {
+    width: 161px;
+    height: 199px;
+    background-size: 161px 199px;
+    background-repeat: no-repeat;
+    background-image: url(../images/compare/header_s3_42mm_silver_aluminum_case_white_sport_band_medium_2x.png?1630947391158);
+  }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  .image-header_s7_45mm_green_aluminum_case_clover_sport_band {
+    width: 167px;
+    height: 199px;
+    background-size: 167px 199px;
+    background-repeat: no-repeat;
+    background-image: url(../images/compare/header_s7_45mm_green_aluminum_case_clover_sport_band_medium_2x.png?1630947391160);
+  }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  .image-header_s4_44mm_silver_aluminum_case_white_sport_band {
+    width: 167px;
+    height: 199px;
+    background-size: 167px 199px;
+    background-repeat: no-repeat;
+    background-image: url(../images/compare/header_s4_44mm_silver_aluminum_case_white_sport_band_medium_2x.png?1630947391160);
+  }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  .image-header_s5_44mm_silver_aluminum_case_white_sport_band {
+    width: 167px;
+    height: 199px;
+    background-size: 167px 199px;
+    background-repeat: no-repeat;
+    background-image: url(../images/compare/header_s5_44mm_silver_aluminum_case_white_sport_band_medium_2x.png?1630947391162);
+  }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  .image-header_se_44mm_gold_aluminum_case_starlight_sport_band {
+    width: 167px;
+    height: 199px;
+    background-size: 167px 199px;
+    background-repeat: no-repeat;
+    background-image: url(../images/compare/header_se_44mm_gold_aluminum_case_starlight_sport_band_medium_2x.png?1630947391162);
+  }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  .image-header_s1_42mm_silver_aluminum_case_white_sport_band {
+    width: 160px;
+    height: 199px;
+    background-size: 160px 199px;
+    background-repeat: no-repeat;
+    background-image: url(../images/compare/header_s1_42mm_silver_aluminum_case_white_sport_band_medium_2x.png?1630947391162);
+  }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+  .image-header_s2_42mm_silver_aluminum_case_white_sport_band {
+    width: 161px;
+    height: 199px;
+    background-size: 161px 199px;
+    background-repeat: no-repeat;
+    background-image: url(../images/compare/header_s2_42mm_silver_aluminum_case_white_sport_band_medium_2x.png?1630947391162);
+  }
+}
+
+@media only screen and (max-width: 734px) {
+  .image-icon_case_size_42_38 {
+    width: 40px;
+    height: 36px;
+    background-size: 40px 36px;
+    background-repeat: no-repeat;
+    background-image: url(../images/compare/icon_case_size_42_38_small.png?1630947391158);
+  }
+}
+
+@media only screen and (max-width: 734px) {
+  .image-icon_case_size_44_40 {
+    width: 39px;
+    height: 36px;
+    background-size: 39px 36px;
+    background-repeat: no-repeat;
+    background-image: url(../images/compare/icon_case_size_44_40_small.png?1630947391158);
+  }
+}
+
+@media only screen and (max-width: 734px) {
+  .image-header_s3_42mm_silver_aluminum_case_white_sport_band {
+    width: 78px;
+    height: 96px;
+    background-size: 78px 96px;
+    background-repeat: no-repeat;
+    background-image: url(../images/compare/header_s3_42mm_silver_aluminum_case_white_sport_band_small.png?1630947391158);
+  }
+}
+
+@media only screen and (max-width: 734px) {
+  .image-icon_case_size_45_41 {
+    width: 38px;
+    height: 36px;
+    background-size: 38px 36px;
+    background-repeat: no-repeat;
+    background-image: url(../images/compare/icon_case_size_45_41_small.png?1630947391158);
+  }
+}
+
+@media only screen and (max-width: 734px) {
+  .image-icon_heart_rate {
+    width: 36px;
+    height: 33px;
+    background-size: 36px 33px;
+    background-repeat: no-repeat;
+    background-image: url(../images/compare/icon_heart_rate_small.png?1630947391158);
+  }
+}
+
+@media only screen and (max-width: 734px) {
+  .image-icon_retina_display_s1_s2_s3 {
+    width: 33px;
+    height: 36px;
+    background-size: 33px 36px;
+    background-repeat: no-repeat;
+    background-image: url(../images/compare/icon_retina_display_s1_s2_s3_small.png?1630947391159);
+  }
+}
+
+@media only screen and (max-width: 734px) {
+  .image-icon_retina_display {
+    width: 33px;
+    height: 36px;
+    background-size: 33px 36px;
+    background-repeat: no-repeat;
+    background-image: url(../images/compare/icon_retina_display_small.png?1630947391159);
+  }
+}
+
+@media only screen and (max-width: 734px) {
+  .image-icon_emergency_calling {
+    width: 33px;
+    height: 33px;
+    background-size: 33px 33px;
+    background-repeat: no-repeat;
+    background-image: url(../images/compare/icon_emergency_calling_small.png?1630947391159);
+  }
+}
+
+@media only screen and (max-width: 734px) {
+  .image-icon_always_on_retina_display_s6 {
+    width: 33px;
+    height: 36px;
+    background-size: 33px 36px;
+    background-repeat: no-repeat;
+    background-image: url(../images/compare/icon_always_on_retina_display_s6_small.png?1630947391159);
+  }
+}
+
+@media only screen and (max-width: 734px) {
+  .image-header_s4_44mm_silver_aluminum_case_white_sport_band {
+    width: 81px;
+    height: 96px;
+    background-size: 81px 96px;
+    background-repeat: no-repeat;
+    background-image: url(../images/compare/header_s4_44mm_silver_aluminum_case_white_sport_band_small.png?1630947391159);
+  }
+}
+
+@media only screen and (max-width: 734px) {
+  .image-header_s6_44mm_silver_aluminum_case_white_sport_band {
+    width: 81px;
+    height: 96px;
+    background-size: 81px 96px;
+    background-repeat: no-repeat;
+    background-image: url(../images/compare/header_s6_44mm_silver_aluminum_case_white_sport_band_small.png?1630947391160);
+  }
+}
+
+@media only screen and (max-width: 734px) {
+  .image-icon_always_on_altimeter {
+    width: 35px;
+    height: 35px;
+    background-size: 35px 35px;
+    background-repeat: no-repeat;
+    background-image: url(../images/compare/icon_always_on_altimeter_small.png?1630947391160);
+  }
+}
+
+@media only screen and (max-width: 734px) {
+  .image-icon_ecg {
+    width: 43px;
+    height: 35px;
+    background-size: 43px 35px;
+    background-repeat: no-repeat;
+    background-image: url(../images/compare/icon_ecg_small.png?1630947391160);
+  }
+}
+
+@media only screen and (max-width: 734px) {
+  .image-icon_fall_detection {
+    width: 35px;
+    height: 35px;
+    background-size: 35px 35px;
+    background-repeat: no-repeat;
+    background-image: url(../images/compare/icon_fall_detection_small.png?1630947391160);
+  }
+}
+
+@media only screen and (max-width: 734px) {
+  .image-icon_always_on_retina_display {
+    width: 32px;
+    height: 36px;
+    background-size: 32px 36px;
+    background-repeat: no-repeat;
+    background-image: url(../images/compare/icon_always_on_retina_display_small.png?1630947391160);
+  }
+}
+
+@media only screen and (max-width: 734px) {
+  .image-icon_family_setup {
+    width: 52px;
+    height: 30px;
+    background-size: 52px 30px;
+    background-repeat: no-repeat;
+    background-image: url(../images/compare/icon_family_setup_small.png?1630947391160);
+  }
+}
+
+@media only screen and (max-width: 734px) {
+  .image-icon_altimeter {
+    width: 35px;
+    height: 35px;
+    background-size: 35px 35px;
+    background-repeat: no-repeat;
+    background-image: url(../images/compare/icon_altimeter_small.png?1630947391160);
+  }
+}
+
+@media only screen and (max-width: 734px) {
+  .image-header_se_44mm_gold_aluminum_case_starlight_sport_band {
+    width: 81px;
+    height: 96px;
+    background-size: 81px 96px;
+    background-repeat: no-repeat;
+    background-image: url(../images/compare/header_se_44mm_gold_aluminum_case_starlight_sport_band_small.png?1630947391161);
+  }
+}
+
+@media only screen and (max-width: 734px) {
+  .image-header_s5_44mm_silver_aluminum_case_white_sport_band {
+    width: 81px;
+    height: 96px;
+    background-size: 81px 96px;
+    background-repeat: no-repeat;
+    background-image: url(../images/compare/header_s5_44mm_silver_aluminum_case_white_sport_band_small.png?1630947391161);
+  }
+}
+
+@media only screen and (max-width: 734px) {
+  .image-icon_blood_oxygen {
+    width: 34px;
+    height: 35px;
+    background-size: 34px 35px;
+    background-repeat: no-repeat;
+    background-image: url(../images/compare/icon_blood_oxygen_small.png?1630947391161);
+  }
+}
+
+@media only screen and (max-width: 734px) {
+  .image-header_s1_42mm_silver_aluminum_case_white_sport_band {
+    width: 78px;
+    height: 96px;
+    background-size: 78px 96px;
+    background-repeat: no-repeat;
+    background-image: url(../images/compare/header_s1_42mm_silver_aluminum_case_white_sport_band_small.png?1630947391161);
+  }
+}
+
+@media only screen and (max-width: 734px) {
+  .image-header_s7_45mm_green_aluminum_case_clover_sport_band {
+    width: 81px;
+    height: 96px;
+    background-size: 81px 96px;
+    background-repeat: no-repeat;
+    background-image: url(../images/compare/header_s7_45mm_green_aluminum_case_clover_sport_band_small.png?1630947391161);
+  }
+}
+
+@media only screen and (max-width: 734px) {
+  .image-icon_charging {
+    width: 35px;
+    height: 35px;
+    background-size: 35px 35px;
+    background-repeat: no-repeat;
+    background-image: url(../images/compare/icon_charging_small.png?1630947391162);
+  }
+}
+
+@media only screen and (max-width: 734px) {
+  .image-icon_cellular {
+    width: 32px;
+    height: 33px;
+    background-size: 32px 33px;
+    background-repeat: no-repeat;
+    background-image: url(../images/compare/icon_cellular_small.png?1630947391162);
+  }
+}
+
+@media only screen and (max-width: 734px) {
+  .image-header_s2_42mm_silver_aluminum_case_white_sport_band {
+    width: 78px;
+    height: 96px;
+    background-size: 78px 96px;
+    background-repeat: no-repeat;
+    background-image: url(../images/compare/header_s2_42mm_silver_aluminum_case_white_sport_band_small.png?1630947391163);
+  }
+}
+
+@media only screen and (max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 734px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+  .image-icon_case_size_42_38 {
+    width: 40px;
+    height: 36px;
+    background-size: 40px 36px;
+    background-repeat: no-repeat;
+    background-image: url(../images/compare/icon_case_size_42_38_small_2x.png?1630947391157);
+  }
+}
+
+@media only screen and (max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 734px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+  .image-header_s2_42mm_silver_aluminum_case_white_sport_band {
+    width: 78px;
+    height: 96px;
+    background-size: 78px 96px;
+    background-repeat: no-repeat;
+    background-image: url(../images/compare/header_s2_42mm_silver_aluminum_case_white_sport_band_small_2x.png?1630947391158);
+  }
+}
+
+@media only screen and (max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 734px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+  .image-icon_family_setup {
+    width: 52px;
+    height: 30px;
+    background-size: 52px 30px;
+    background-repeat: no-repeat;
+    background-image: url(../images/compare/icon_family_setup_small_2x.png?1630947391158);
+  }
+}
+
+@media only screen and (max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 734px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+  .image-icon_emergency_calling {
+    width: 33px;
+    height: 33px;
+    background-size: 33px 33px;
+    background-repeat: no-repeat;
+    background-image: url(../images/compare/icon_emergency_calling_small_2x.png?1630947391158);
+  }
+}
+
+@media only screen and (max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 734px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+  .image-icon_heart_rate {
+    width: 36px;
+    height: 33px;
+    background-size: 36px 33px;
+    background-repeat: no-repeat;
+    background-image: url(../images/compare/icon_heart_rate_small_2x.png?1630947391158);
+  }
+}
+
+@media only screen and (max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 734px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+  .image-icon_cellular {
+    width: 32px;
+    height: 33px;
+    background-size: 32px 33px;
+    background-repeat: no-repeat;
+    background-image: url(../images/compare/icon_cellular_small_2x.png?1630947391158);
+  }
+}
+
+@media only screen and (max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 734px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+  .image-icon_altimeter {
+    width: 35px;
+    height: 35px;
+    background-size: 35px 35px;
+    background-repeat: no-repeat;
+    background-image: url(../images/compare/icon_altimeter_small_2x.png?1630947391158);
+  }
+}
+
+@media only screen and (max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 734px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+  .image-header_s4_44mm_silver_aluminum_case_white_sport_band {
+    width: 81px;
+    height: 96px;
+    background-size: 81px 96px;
+    background-repeat: no-repeat;
+    background-image: url(../images/compare/header_s4_44mm_silver_aluminum_case_white_sport_band_small_2x.png?1630947391158);
+  }
+}
+
+@media only screen and (max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 734px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+  .image-header_s6_44mm_silver_aluminum_case_white_sport_band {
+    width: 81px;
+    height: 96px;
+    background-size: 81px 96px;
+    background-repeat: no-repeat;
+    background-image: url(../images/compare/header_s6_44mm_silver_aluminum_case_white_sport_band_small_2x.png?1630947391159);
+  }
+}
+
+@media only screen and (max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 734px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+  .image-icon_fall_detection {
+    width: 35px;
+    height: 35px;
+    background-size: 35px 35px;
+    background-repeat: no-repeat;
+    background-image: url(../images/compare/icon_fall_detection_small_2x.png?1630947391159);
+  }
+}
+
+@media only screen and (max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 734px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+  .image-header_s1_42mm_silver_aluminum_case_white_sport_band {
+    width: 78px;
+    height: 96px;
+    background-size: 78px 96px;
+    background-repeat: no-repeat;
+    background-image: url(../images/compare/header_s1_42mm_silver_aluminum_case_white_sport_band_small_2x.png?1630947391159);
+  }
+}
+
+@media only screen and (max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 734px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+  .image-header_s3_42mm_silver_aluminum_case_white_sport_band {
+    width: 78px;
+    height: 96px;
+    background-size: 78px 96px;
+    background-repeat: no-repeat;
+    background-image: url(../images/compare/header_s3_42mm_silver_aluminum_case_white_sport_band_small_2x.png?1630947391160);
+  }
+}
+
+@media only screen and (max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 734px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+  .image-icon_case_size_45_41 {
+    width: 38px;
+    height: 36px;
+    background-size: 38px 36px;
+    background-repeat: no-repeat;
+    background-image: url(../images/compare/icon_case_size_45_41_small_2x.png?1630947391160);
+  }
+}
+
+@media only screen and (max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 734px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+  .image-header_s5_44mm_silver_aluminum_case_white_sport_band {
+    width: 81px;
+    height: 96px;
+    background-size: 81px 96px;
+    background-repeat: no-repeat;
+    background-image: url(../images/compare/header_s5_44mm_silver_aluminum_case_white_sport_band_small_2x.png?1630947391160);
+  }
+}
+
+@media only screen and (max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 734px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+  .image-icon_always_on_retina_display {
+    width: 32px;
+    height: 36px;
+    background-size: 32px 36px;
+    background-repeat: no-repeat;
+    background-image: url(../images/compare/icon_always_on_retina_display_small_2x.png?1630947391160);
+  }
+}
+
+@media only screen and (max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 734px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+  .image-icon_blood_oxygen {
+    width: 34px;
+    height: 35px;
+    background-size: 34px 35px;
+    background-repeat: no-repeat;
+    background-image: url(../images/compare/icon_blood_oxygen_small_2x.png?1630947391160);
+  }
+}
+
+@media only screen and (max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 734px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+  .image-icon_retina_display {
+    width: 33px;
+    height: 36px;
+    background-size: 33px 36px;
+    background-repeat: no-repeat;
+    background-image: url(../images/compare/icon_retina_display_small_2x.png?1630947391160);
+  }
+}
+
+@media only screen and (max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 734px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+  .image-icon_always_on_altimeter {
+    width: 35px;
+    height: 35px;
+    background-size: 35px 35px;
+    background-repeat: no-repeat;
+    background-image: url(../images/compare/icon_always_on_altimeter_small_2x.png?1630947391160);
+  }
+}
+
+@media only screen and (max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 734px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+  .image-header_se_44mm_gold_aluminum_case_starlight_sport_band {
+    width: 81px;
+    height: 96px;
+    background-size: 81px 96px;
+    background-repeat: no-repeat;
+    background-image: url(../images/compare/header_se_44mm_gold_aluminum_case_starlight_sport_band_small_2x.png?1630947391161);
+  }
+}
+
+@media only screen and (max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 734px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+  .image-icon_always_on_retina_display_s6 {
+    width: 33px;
+    height: 36px;
+    background-size: 33px 36px;
+    background-repeat: no-repeat;
+    background-image: url(../images/compare/icon_always_on_retina_display_s6_small_2x.png?1630947391161);
+  }
+}
+
+@media only screen and (max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 734px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+  .image-icon_retina_display_s1_s2_s3 {
+    width: 33px;
+    height: 36px;
+    background-size: 33px 36px;
+    background-repeat: no-repeat;
+    background-image: url(../images/compare/icon_retina_display_s1_s2_s3_small_2x.png?1630947391161);
+  }
+}
+
+@media only screen and (max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 734px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+  .image-icon_case_size_44_40 {
+    width: 39px;
+    height: 36px;
+    background-size: 39px 36px;
+    background-repeat: no-repeat;
+    background-image: url(../images/compare/icon_case_size_44_40_small_2x.png?1630947391161);
+  }
+}
+
+@media only screen and (max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 734px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+  .image-header_s7_45mm_green_aluminum_case_clover_sport_band {
+    width: 81px;
+    height: 96px;
+    background-size: 81px 96px;
+    background-repeat: no-repeat;
+    background-image: url(../images/compare/header_s7_45mm_green_aluminum_case_clover_sport_band_small_2x.png?1630947391161);
+  }
+}
+
+@media only screen and (max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 734px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+  .image-icon_ecg {
+    width: 43px;
+    height: 35px;
+    background-size: 43px 35px;
+    background-repeat: no-repeat;
+    background-image: url(../images/compare/icon_ecg_small_2x.png?1630947391161);
+  }
+}
+
+@media only screen and (max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (max-width: 734px) and (min-resolution: 1.5dppx),
+  only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+  .image-icon_charging {
+    width: 35px;
+    height: 35px;
+    background-size: 35px 35px;
+    background-repeat: no-repeat;
+    background-image: url(../images/compare/icon_charging_small_2x.png?1630947391162);
+  }
+}
+
+.channel-html .e0a74b3 {
+  background-color: #f5f5f7;
+  align-items: center;
+  /** Margin */
+  /** Padding */
+  padding-bottom: 0;
+  /** Overflow */
+  /** Layer controls */
+  /** Interaction controls */
+}
+
+@media only screen and (max-width: 734px) {
+  .channel-html .e0a74b3 {
+    background-color: #ffffff;
+    /* padding-bottom: 30px; */
+  }
+}
+
+.channel-html .q06a5ea {
+  background-color: #ffffff;
+  /** alignment */
+  align-items: center;
+  /** Margin */
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-bottom: 0px;
+  margin-right: 0px;
+  /** Padding */
+  padding-top: 56px;
+  padding-left: 0px;
+  padding-bottom: 0px;
+  padding-right: 0px;
+  /** Layer controls */
+  /** Interaction controls */
+  /** Display Bleed L/M/S (When true, it must match the BG color of the row) */
+}
+
+@media only screen and (max-width: 1068px) {
+  .channel-html .q06a5ea {
+    align-items: center;
+  }
+}
+
+@media only screen and (max-width: 734px) {
+  .channel-html .q06a5ea {
+    align-items: center;
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .channel-html .q06a5ea {
+    margin-top: 0px;
+  }
+}
+
+@media only screen and (max-width: 734px) {
+  .channel-html .q06a5ea {
+    margin-top: 0px;
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .channel-html .q06a5ea {
+    margin-left: 0px;
+  }
+}
+
+@media only screen and (max-width: 734px) {
+  .channel-html .q06a5ea {
+    margin-left: 0px;
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .channel-html .q06a5ea {
+    margin-bottom: 0px;
+  }
+}
+
+@media only screen and (max-width: 734px) {
+  .channel-html .q06a5ea {
+    margin-bottom: 0px;
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .channel-html .q06a5ea {
+    margin-right: 0px;
+  }
+}
+
+@media only screen and (max-width: 734px) {
+  .channel-html .q06a5ea {
+    margin-right: 0px;
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .channel-html .q06a5ea {
+    padding-top: 56px;
+  }
+}
+
+@media only screen and (max-width: 734px) {
+  .channel-html .q06a5ea {
+    padding-top: 36px;
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .channel-html .q06a5ea {
+    padding-left: 0px;
+  }
+}
+
+@media only screen and (max-width: 734px) {
+  .channel-html .q06a5ea {
+    padding-left: 0px;
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .channel-html .q06a5ea {
+    padding-bottom: 0px;
+  }
+}
+
+@media only screen and (max-width: 734px) {
+  .channel-html .q06a5ea {
+    padding-bottom: 0px;
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .channel-html .q06a5ea {
+    padding-right: 0px;
+  }
+}
+
+@media only screen and (max-width: 734px) {
+  .channel-html .q06a5ea {
+    padding-right: 0px;
+  }
+}
+
+.channel-html .v518b18 {
+  /** Margin */
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-bottom: 0px;
+  margin-right: 0px;
+  /** Padding */
+  padding-top: 0px;
+  padding-left: 0px;
+  padding-bottom: 42px;
+  padding-right: 0px;
+  /** Align text*/
+  text-align: center;
+  /** Flexbox order*/
+  /** Layer controls */
+  /** Interaction controls */
+}
+
+@media only screen and (max-width: 1068px) {
+  .channel-html .v518b18 {
+    margin-top: 0px;
+  }
+}
+
+@media only screen and (max-width: 734px) {
+  .channel-html .v518b18 {
+    margin-top: 0px;
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .channel-html .v518b18 {
+    margin-left: 0px;
+  }
+}
+
+@media only screen and (max-width: 734px) {
+  .channel-html .v518b18 {
+    margin-left: 0px;
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .channel-html .v518b18 {
+    margin-bottom: 0px;
+  }
+}
+
+@media only screen and (max-width: 734px) {
+  .channel-html .v518b18 {
+    margin-bottom: 0px;
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .channel-html .v518b18 {
+    margin-right: 0px;
+  }
+}
+
+@media only screen and (max-width: 734px) {
+  .channel-html .v518b18 {
+    margin-right: 0px;
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .channel-html .v518b18 {
+    padding-top: 0px;
+  }
+}
+
+@media only screen and (max-width: 734px) {
+  .channel-html .v518b18 {
+    padding-top: 0px;
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .channel-html .v518b18 {
+    padding-left: 0px;
+  }
+}
+
+@media only screen and (max-width: 734px) {
+  .channel-html .v518b18 {
+    padding-left: 0px;
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .channel-html .v518b18 {
+    padding-bottom: 42px;
+  }
+}
+
+@media only screen and (max-width: 734px) {
+  .channel-html .v518b18 {
+    padding-bottom: 16px;
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .channel-html .v518b18 {
+    padding-right: 0px;
+  }
+}
+
+@media only screen and (max-width: 734px) {
+  .channel-html .v518b18 {
+    padding-right: 0px;
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .channel-html .v518b18 {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 734px) {
+  .channel-html .v518b18 {
+    text-align: center;
+  }
+}
+
+.channel-html .d60c485 {
+  color: #1d1d1f;
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-bottom: 0px;
+  margin-right: 0px;
+  padding-top: 0px;
+  padding-left: 0px;
+  padding-bottom: 0px;
+  padding-right: 0px;
+}
+
+@media only screen and (max-width: 1068px) {
+  .channel-html .d60c485 {
+    margin-top: 0px;
+  }
+}
+
+@media only screen and (max-width: 734px) {
+  .channel-html .d60c485 {
+    margin-top: 0px;
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .channel-html .d60c485 {
+    margin-left: 0px;
+  }
+}
+
+@media only screen and (max-width: 734px) {
+  .channel-html .d60c485 {
+    margin-left: -8px;
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .channel-html .d60c485 {
+    margin-bottom: 0px;
+  }
+}
+
+@media only screen and (max-width: 734px) {
+  .channel-html .d60c485 {
+    margin-bottom: 0px;
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .channel-html .d60c485 {
+    margin-right: 0px;
+  }
+}
+
+@media only screen and (max-width: 734px) {
+  .channel-html .d60c485 {
+    margin-right: -8px;
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .channel-html .d60c485 {
+    padding-top: 0px;
+  }
+}
+
+@media only screen and (max-width: 734px) {
+  .channel-html .d60c485 {
+    padding-top: 0px;
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .channel-html .d60c485 {
+    padding-left: 0px;
+  }
+}
+
+@media only screen and (max-width: 734px) {
+  .channel-html .d60c485 {
+    padding-left: 0px;
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .channel-html .d60c485 {
+    padding-bottom: 0px;
+  }
+}
+
+@media only screen and (max-width: 734px) {
+  .channel-html .d60c485 {
+    padding-bottom: 0px;
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .channel-html .d60c485 {
+    padding-right: 0px;
+  }
+}
+
+@media only screen and (max-width: 734px) {
+  .channel-html .d60c485 {
+    padding-right: 0px;
+  }
+}
+
+.channel-html .z9a015b {
+  background-color: #ffffff;
+  /** alignment */
+  /** Margin */
+  margin-top: 0;
+  margin-bottom: 0;
+  /** Padding */
+  padding-top: 0;
+  /** Layer controls */
+  /** Interaction controls */
+  /** Display Bleed L/M/S (When true, it must match the BG color of the row) */
+}
+
+.fc19025 {
+  width: 100%;
+  --columns: 3;
+  --grid-column: 3;
+}
+
+.fc19025 .compare-column-0 {
+  display: flex;
+  order: 1;
+}
+
+.fc19025 .compare-column-1 {
+  display: flex;
+  order: 2;
+}
+
+.fc19025 .compare-column-2 {
+  display: flex;
+  order: 3;
+}
+
+@media only screen and (max-width: 1068px) {
+  .fc19025 {
+    --columns: 3;
+    --grid-column: 3;
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .fc19025 .compare-column-0 {
+    display: flex;
+    order: 1;
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .fc19025 .compare-column-1 {
+    display: flex;
+    order: 2;
+  }
+}
+
+@media only screen and (max-width: 1068px) {
+  .fc19025 .compare-column-2 {
+    display: flex;
+    order: 3;
+  }
+}
+
+@media only screen and (max-width: 734px) {
+  .fc19025 {
+    --columns: 3;
+    --grid-column: 2;
+  }
+}
+
+@media only screen and (max-width: 734px) {
+  .fc19025 .compare-column-0 {
+    display: flex;
+    order: 1;
+  }
+}
+
+@media only screen and (max-width: 734px) {
+  .fc19025 .compare-column-1 {
+    display: flex;
+    order: 2;
+  }
+}
+
+@media only screen and (max-width: 734px) {
+  .fc19025 .compare-column-2 {
+    display: none;
+    order: 3;
+  }
+}
+
+.channel-html .u43bdec {
+  background-color: #f5f5f7;
+  /** Margin */
+  /** Padding */
+  /** Overflow */
+  overflow: hidden;
+  /** Layer controls */
+  /** Interaction controls */
+}
+
+.channel-html .ddc31de {
+  background-color: #f5f5f7;
+  /** alignment */
+  /** Margin */
+  margin-top: 16px;
+  margin-bottom: 7px;
+  /** Padding */
+  /** Layer controls */
+  /** Interaction controls */
+  /** Display Bleed L/M/S (When true, it must match the BG color of the row) */
+}
+
+@media only screen and (max-width: 734px) {
+  .channel-html .ddc31de {
+    margin-left: -50vw;
+  }
+}
+
+@media only screen and (max-width: 734px) {
+  .channel-html .ddc31de {
+    margin-right: -50vw;
+  }
+}
+
+@media only screen and (max-width: 734px) {
+  .channel-html .ddc31de {
+    padding-left: 50vw;
+  }
+}
+
+@media only screen and (max-width: 734px) {
+  .channel-html .ddc31de {
+    padding-right: 50vw;
+  }
+}
+
+.channel-html .ddc31de.large-display-bleed::before,
+.channel-html .ddc31de.large-display-bleed::after {
+  background-color: #f5f5f7;
+}
+
+.channel-html .ddc31de.medium-display-bleed::before,
+.channel-html .ddc31de.medium-display-bleed::after {
+  background-color: #f5f5f7;
+}
+
+.channel-html .ddc31de.small-display-bleed::before,
+.channel-html .ddc31de.small-display-bleed::after {
+  background-color: #f5f5f7;
+}
+
+.channel-html .t31f27a {
+  /** Margin */
+  /** Padding */
+  /** Align text*/
+  /** Flexbox order*/
+  /** Layer controls */
+  /** Interaction controls */
+}
+
+@media only screen and (max-width: 1068px) {
+  .channel-html .t31f27a {
+    margin-left: 0;
+  }
+}
+
+@media only screen and (max-width: 734px) {
+  .channel-html .t31f27a {
+    margin-left: 0px;
+  }
+}
+
+@media only screen and (max-width: 734px) {
+  .channel-html .t31f27a {
+    margin-right: 0px;
+  }
+}
+
+.channel-html .x7124a3 {
+  /** alignment */
+  /** Margin */
+  margin-bottom: 9px;
+  /** Padding */
+  /** Layer controls */
+  /** Interaction controls */
+  /** Display Bleed L/M/S (When true, it must match the BG color of the row) */
+}
+
+.channel-html .y8be56d {
+  /** Margin */
+  /** Padding */
+  /** Align text*/
+  /** Flexbox order*/
+  /** Layer controls */
+  /** Interaction controls */
+}
+
+.channel-html .v5fe100 {
+  color: #515154;
+}
+
+.channel-html .l113661 {
+  /** alignment */
+  /** Margin */
+  margin-bottom: 9px;
+  /** Padding */
+  /** Layer controls */
+  /** Interaction controls */
+  /** Display Bleed L/M/S (When true, it must match the BG color of the row) */
+}
+
+.channel-html .b757A37 {
+  /** Margin */
+  /** Padding */
+  /** Align text*/
+  /** Flexbox order*/
+  /** Layer controls */
+  /** Interaction controls */
+}
+
+.channel-html .p3556D7 {
+  color: #6e6e73;
+  margin-top: 0px;
+}
+
+.channel-html .d2e35ad {
+  /** alignment */
+  /** Margin */
+  margin-bottom: 9px;
+  /** Padding */
+  /** Layer controls */
+  /** Interaction controls */
+  /** Display Bleed L/M/S (When true, it must match the BG color of the row) */
+}
+
+.channel-html .z9ba22e {
+  /** Margin */
+  /** Padding */
+  /** Align text*/
+  /** Flexbox order*/
+  /** Layer controls */
+  /** Interaction controls */
+}
+
+.channel-html .q00acfc {
+  color: #6e6e73;
+  margin-top: 0px;
+}
+
+.channel-html .t0C5F08 {
+  /** alignment */
+  /** Margin */
+  margin-bottom: 9px;
+  /** Padding */
+  /** Layer controls */
+  /** Interaction controls */
+  /** Display Bleed L/M/S (When true, it must match the BG color of the row) */
+}
+
+@media only screen and (max-width: 734px) {
+  .channel-html .t0C5F08 {
+    margin-top: 10px;
+  }
+}
+
+.channel-html .qF062FD {
+  /** Margin */
+  /** Padding */
+  /** Align text*/
+  /** Flexbox order*/
+  /** Layer controls */
+  /** Interaction controls */
+}
+
+.channel-html .a5550FC {
+  color: #6e6e73;
+  margin-top: 0px;
+}
+
+.channel-html .c581136 {
+  /** alignment */
+  /** Margin */
+  margin-bottom: 9px;
+  /** Padding */
+  /** Layer controls */
+  /** Interaction controls */
+  /** Display Bleed L/M/S (When true, it must match the BG color of the row) */
+}
+
+@media only screen and (max-width: 734px) {
+  .channel-html .c581136 {
+    margin-top: 10px;
+  }
+}
+
+.channel-html .cffe59d {
+  /** Margin */
+  /** Padding */
+  /** Align text*/
+  /** Flexbox order*/
+  /** Layer controls */
+  /** Interaction controls */
+}
+
+.channel-html .z9d3f4f {
+  color: #6e6e73;
+  margin-top: 0px;
+}
+
+.channel-html .fdaeaca {
+  /** alignment */
+  /** Margin */
+  margin-bottom: 9px;
+  /** Padding */
+  /** Layer controls */
+  /** Interaction controls */
+  /** Display Bleed L/M/S (When true, it must match the BG color of the row) */
+}
+
+.channel-html .c54e578 {
+  /** Margin */
+  /** Padding */
+  /** Align text*/
+  /** Flexbox order*/
+  /** Layer controls */
+  /** Interaction controls */
+}
+
+.channel-html .a64842b {
+  color: #6e6e73;
+  margin-top: 0;
+}
+
+.channel-html .t34e709 {
+  /** alignment */
+  /** Margin */
+  margin-bottom: 9px;
+  /** Padding */
+  /** Layer controls */
+  /** Interaction controls */
+  /** Display Bleed L/M/S (When true, it must match the BG color of the row) */
+}
+
+.channel-html .a8644e2 {
+  /** Margin */
+  /** Padding */
+  /** Align text*/
+  /** Flexbox order*/
+  /** Layer controls */
+  /** Interaction controls */
+}
+
+.channel-html .u41e7f3 {
+  color: #6e6e73;
+  margin-top: 0;
+}
+
+.channel-html .l517493 {
+  /** alignment */
+  /** Margin */
+  margin-bottom: 9px;
+  /** Padding */
+  /** Layer controls */
+  /** Interaction controls */
+  /** Display Bleed L/M/S (When true, it must match the BG color of the row) */
+}
+
+.channel-html .r657744 {
+  /** Margin */
+  /** Padding */
+  /** Align text*/
+  /** Flexbox order*/
+  /** Layer controls */
+  /** Interaction controls */
+}
+
+.channel-html .i9B5336 {
+  color: #6e6e73;
+  margin-top: 0;
+}
+
+.channel-html .a459109 {
+  /** alignment */
+  /** Margin */
+  margin-bottom: 9px;
+  /** Padding */
+  /** Layer controls */
+  /** Interaction controls */
+  /** Display Bleed L/M/S (When true, it must match the BG color of the row) */
+}
+
+.channel-html .r175a1a {
+  /** Margin */
+  /** Padding */
+  /** Align text*/
+  /** Flexbox order*/
+  /** Layer controls */
+  /** Interaction controls */
+}
+
+.channel-html .u4dd87f {
+  color: #6e6e73;
+  margin-top: 0;
+}
+
+.channel-html .zADB4F5 {
+  /** alignment */
+  /** Margin */
+  margin-bottom: 9px;
+  /** Padding */
+  /** Layer controls */
+  /** Interaction controls */
+  /** Display Bleed L/M/S (When true, it must match the BG color of the row) */
+}
+
+.channel-html .nE3C449 {
+  /** Margin */
+  /** Padding */
+  /** Align text*/
+  /** Flexbox order*/
+  /** Layer controls */
+  /** Interaction controls */
+}
+
+.channel-html .n955F41 {
+  color: #6e6e73;
+  margin-top: 0;
+}
+
+.channel-html .c35085F {
+  /** alignment */
+  /** Margin */
+  margin-bottom: 9px;
+  /** Padding */
+  /** Layer controls */
+  /** Interaction controls */
+  /** Display Bleed L/M/S (When true, it must match the BG color of the row) */
+}
+
+.channel-html .bF1B9CB {
+  /** Margin */
+  /** Padding */
+  /** Align text*/
+  /** Flexbox order*/
+  /** Layer controls */
+  /** Interaction controls */
+}
+
+.channel-html .d5C29FA {
+  color: #6e6e73;
+  margin-top: 0;
+}
+
+.channel-html .cE44B49 {
+  /** alignment */
+  /** Margin */
+  margin-bottom: 9px;
+  /** Padding */
+  /** Layer controls */
+  /** Interaction controls */
+  /** Display Bleed L/M/S (When true, it must match the BG color of the row) */
+}
+
+.channel-html .d8294D9 {
+  /** Margin */
+  /** Padding */
+  /** Align text*/
+  /** Flexbox order*/
+  /** Layer controls */
+  /** Interaction controls */
+}
+
+.channel-html .e9AFE1E {
+  color: #6e6e73;
+  margin-top: 0;
+}
+
+.channel-html .d439C24 {
+  /** alignment */
+  /** Margin */
+  margin-bottom: 9px;
+  /** Padding */
+  /** Layer controls */
+  /** Interaction controls */
+  /** Display Bleed L/M/S (When true, it must match the BG color of the row) */
+}
+
+.channel-html .p9F8F63 {
+  /** Margin */
+  /** Padding */
+  /** Align text*/
+  /** Flexbox order*/
+  /** Layer controls */
+  /** Interaction controls */
+}
+
+.channel-html .p1D11EA {
+  color: #6e6e73;
+  margin-top: 0;
+}

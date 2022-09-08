@@ -114,7 +114,7 @@ h3 .page-productDetails .pdp-tabs .tabContent .channel-html sup {
 .page-productDetails .pdp-tabs .tabContent .channel-html figure,
 .page-productDetails .pdp-tabs .tabContent .channel-html form,
 .page-productDetails .pdp-tabs .tabContent .channel-html button {
-  margin: 0;
+  margin: auto !important;
   padding: 0;
 }
 

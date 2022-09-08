@@ -2481,222 +2481,222 @@ Mixin to define padding per viewport and column number
   }
 }
 
-.channel-compare .compare-wrapper {
+.page-productDetails .pdp-tabs .tabContent .channel-compare .compare-wrapper {
   position: relative;
   overflow: hidden;
 }
 
 @media only screen and (max-width: 734px) {
-  .channel-compare .compare-wrapper {
+  .page-productDetails .pdp-tabs .tabContent .channel-compare .compare-wrapper {
     overflow: initial;
   }
 }
 
-.channel-compare .compare-section,
-.channel-compare .selector-table {
+.page-productDetails .pdp-tabs .tabContent .channel-compare .compare-section,
+.page-productDetails .pdp-tabs .tabContent .channel-compare .selector-table {
   position: relative;
 }
 
-.channel-compare select {
+.page-productDetails .pdp-tabs .tabContent .channel-compare select {
   box-sizing: border-box;
 }
 
-.channel-compare sup * {
+.page-productDetails .pdp-tabs .tabContent .channel-compare sup * {
   vertical-align: inherit;
   font-weight: 400;
 }
 
-.channel-compare ul {
+.page-productDetails .pdp-tabs .tabContent .channel-compare ul {
   margin: 0;
   list-style: none;
 }
 
-.channel-compare .icon-check {
+.page-productDetails .pdp-tabs .tabContent .channel-compare .icon-check {
   position: relative;
   top: -5px;
 }
 
-.channel-compare .icon-check:after {
+.page-productDetails .pdp-tabs .tabContent .channel-compare .icon-check:after {
   font-size: 38px;
 }
 
-.channel-compare .compare-section {
+.page-productDetails .pdp-tabs .tabContent .channel-compare .compare-section {
   padding-top: 39px;
   border: 0;
 }
 
 @media only screen and (max-width: 1068px) {
-  .channel-compare .compare-section {
+  .page-productDetails .pdp-tabs .tabContent .channel-compare .compare-section {
     padding-top: 53px;
     padding-bottom: 25px;
   }
 }
 
 @media only screen and (max-width: 734px) {
-  .channel-compare .compare-section {
+  .page-productDetails .pdp-tabs .tabContent .channel-compare .compare-section {
     padding-top: 20px;
     padding-bottom: 14px;
   }
 }
 
-.channel-compare .compare-section.no-padding-top {
+.page-productDetails .pdp-tabs .tabContent .channel-compare .compare-section.no-padding-top {
   padding: 0;
 }
 
-.channel-compare .compare.compare-column-range-large-5 .compare-header-row,
-.channel-compare .compare.compare-column-range-large-5 .compare-row {
+.page-productDetails .pdp-tabs .tabContent .channel-compare .compare.compare-column-range-large-5 .compare-header-row,
+.page-productDetails .pdp-tabs .tabContent .channel-compare .compare.compare-column-range-large-5 .compare-row {
   padding: 0 16px;
 }
 
-.channel-compare .compare.compare-column-range-large-4 .compare-header-row,
-.channel-compare .compare.compare-column-range-large-4 .compare-row {
+.page-productDetails .pdp-tabs .tabContent .channel-compare .compare.compare-column-range-large-4 .compare-header-row,
+.page-productDetails .pdp-tabs .tabContent .channel-compare .compare.compare-column-range-large-4 .compare-row {
   padding: 0 42px;
 }
 
-.channel-compare .compare.compare-column-range-large-3 .compare-header-row,
-.channel-compare .compare.compare-column-range-large-3 .compare-row {
+.page-productDetails .pdp-tabs .tabContent .channel-compare .compare.compare-column-range-large-3 .compare-header-row,
+.page-productDetails .pdp-tabs .tabContent .channel-compare .compare.compare-column-range-large-3 .compare-row {
   padding: 0 144px;
 }
 
-.channel-compare .compare.compare-column-range-large-2 .compare-header-row,
-.channel-compare .compare.compare-column-range-large-2 .compare-row {
+.page-productDetails .pdp-tabs .tabContent .channel-compare .compare.compare-column-range-large-2 .compare-header-row,
+.page-productDetails .pdp-tabs .tabContent .channel-compare .compare.compare-column-range-large-2 .compare-row {
   padding: 0 0px;
 }
 
 @media only screen and (max-width: 1068px) {
-  .channel-compare .compare.compare-column-range-medium-5 .compare-header-row,
-  .channel-compare .compare.compare-column-range-medium-5 .compare-row {
+  .page-productDetails .pdp-tabs .tabContent .channel-compare .compare.compare-column-range-medium-5 .compare-header-row,
+  .page-productDetails .pdp-tabs .tabContent .channel-compare .compare.compare-column-range-medium-5 .compare-row {
     padding: 0 0px;
   }
 }
 
 @media only screen and (max-width: 1068px) {
-  .channel-compare .compare.compare-column-range-medium-4 .compare-header-row,
-  .channel-compare .compare.compare-column-range-medium-4 .compare-row {
+  .page-productDetails .pdp-tabs .tabContent .channel-compare .compare.compare-column-range-medium-4 .compare-header-row,
+  .page-productDetails .pdp-tabs .tabContent .channel-compare .compare.compare-column-range-medium-4 .compare-row {
     padding: 0 0px;
   }
 }
 
 @media only screen and (max-width: 1068px) {
-  .channel-compare .compare.compare-column-range-medium-3 .compare-header-row,
-  .channel-compare .compare.compare-column-range-medium-3 .compare-row {
+  .page-productDetails .pdp-tabs .tabContent .channel-compare .compare.compare-column-range-medium-3 .compare-header-row,
+  .page-productDetails .pdp-tabs .tabContent .channel-compare .compare.compare-column-range-medium-3 .compare-row {
     padding: 0 58px;
   }
 }
 
 @media only screen and (max-width: 1068px) {
-  .channel-compare .compare.compare-column-range-medium-2 .compare-header-row,
-  .channel-compare .compare.compare-column-range-medium-2 .compare-row {
+  .page-productDetails .pdp-tabs .tabContent .channel-compare .compare.compare-column-range-medium-2 .compare-header-row,
+  .page-productDetails .pdp-tabs .tabContent .channel-compare .compare.compare-column-range-medium-2 .compare-row {
     padding: 0 0px;
   }
 }
 
 @media only screen and (max-width: 734px) {
-  .channel-compare .compare.compare-column-range-small-5 .compare-header-row,
-  .channel-compare .compare.compare-column-range-small-5 .compare-row {
+  .page-productDetails .pdp-tabs .tabContent .channel-compare .compare.compare-column-range-small-5 .compare-header-row,
+  .page-productDetails .pdp-tabs .tabContent .channel-compare .compare.compare-column-range-small-5 .compare-row {
     padding: 0 0px;
   }
 }
 
 @media only screen and (max-width: 734px) {
-  .channel-compare .compare.compare-column-range-small-4 .compare-header-row,
-  .channel-compare .compare.compare-column-range-small-4 .compare-row {
+  .page-productDetails .pdp-tabs .tabContent .channel-compare .compare.compare-column-range-small-4 .compare-header-row,
+  .page-productDetails .pdp-tabs .tabContent .channel-compare .compare.compare-column-range-small-4 .compare-row {
     padding: 0 0px;
   }
 }
 
 @media only screen and (max-width: 734px) {
-  .channel-compare .compare.compare-column-range-small-3 .compare-header-row,
-  .channel-compare .compare.compare-column-range-small-3 .compare-row {
+  .page-productDetails .pdp-tabs .tabContent .channel-compare .compare.compare-column-range-small-3 .compare-header-row,
+  .page-productDetails .pdp-tabs .tabContent .channel-compare .compare.compare-column-range-small-3 .compare-row {
     padding: 0 0px;
   }
 }
 
 @media only screen and (max-width: 734px) {
-  .channel-compare .compare.compare-column-range-small-2 .compare-header-row,
-  .channel-compare .compare.compare-column-range-small-2 .compare-row {
+  .page-productDetails .pdp-tabs .tabContent .channel-compare .compare.compare-column-range-small-2 .compare-header-row,
+  .page-productDetails .pdp-tabs .tabContent .channel-compare .compare.compare-column-range-small-2 .compare-row {
     padding: 0 0;
   }
 }
 
-.channel-compare .compare.compare-column-range-large-5 .compare-header-row,
-.channel-compare .compare.compare-column-range-large-5 .compare-row {
+.page-productDetails .pdp-tabs .tabContent .channel-compare .compare.compare-column-range-large-5 .compare-header-row,
+.page-productDetails .pdp-tabs .tabContent .channel-compare .compare.compare-column-range-large-5 .compare-row {
   --column-gap: 32px;
 }
 
-.channel-compare .compare.compare-column-range-large-4 .compare-header-row,
-.channel-compare .compare.compare-column-range-large-4 .compare-row {
+.page-productDetails .pdp-tabs .tabContent .channel-compare .compare.compare-column-range-large-4 .compare-header-row,
+.page-productDetails .pdp-tabs .tabContent .channel-compare .compare.compare-column-range-large-4 .compare-row {
   --column-gap: 80px;
 }
 
-.channel-compare .compare.compare-column-range-large-3 .compare-header-row,
-.channel-compare .compare.compare-column-range-large-3 .compare-row {
+.page-productDetails .pdp-tabs .tabContent .channel-compare .compare.compare-column-range-large-3 .compare-header-row,
+.page-productDetails .pdp-tabs .tabContent .channel-compare .compare.compare-column-range-large-3 .compare-row {
   --column-gap: 100px;
 }
 
-.channel-compare .compare.compare-column-range-large-2 .compare-header-row,
-.channel-compare .compare.compare-column-range-large-2 .compare-row {
+.page-productDetails .pdp-tabs .tabContent .channel-compare .compare.compare-column-range-large-2 .compare-header-row,
+.page-productDetails .pdp-tabs .tabContent .channel-compare .compare.compare-column-range-large-2 .compare-row {
   --column-gap: 16px;
 }
 
 @media only screen and (max-width: 1068px) {
-  .channel-compare .compare.compare-column-range-medium-5 .compare-header-row,
-  .channel-compare .compare.compare-column-range-medium-5 .compare-row {
+  .page-productDetails .pdp-tabs .tabContent .channel-compare .compare.compare-column-range-medium-5 .compare-header-row,
+  .page-productDetails .pdp-tabs .tabContent .channel-compare .compare.compare-column-range-medium-5 .compare-row {
     --column-gap: 28px;
   }
 }
 
 @media only screen and (max-width: 1068px) {
-  .channel-compare .compare.compare-column-range-medium-4 .compare-header-row,
-  .channel-compare .compare.compare-column-range-medium-4 .compare-row {
+  .page-productDetails .pdp-tabs .tabContent .channel-compare .compare.compare-column-range-medium-4 .compare-header-row,
+  .page-productDetails .pdp-tabs .tabContent .channel-compare .compare.compare-column-range-medium-4 .compare-row {
     --column-gap: 28px;
   }
 }
 
 @media only screen and (max-width: 1068px) {
-  .channel-compare .compare.compare-column-range-medium-3 .compare-header-row,
-  .channel-compare .compare.compare-column-range-medium-3 .compare-row {
+  .page-productDetails .pdp-tabs .tabContent .channel-compare .compare.compare-column-range-medium-3 .compare-header-row,
+  .page-productDetails .pdp-tabs .tabContent .channel-compare .compare.compare-column-range-medium-3 .compare-row {
     --column-gap: 42px;
   }
 }
 
 @media only screen and (max-width: 1068px) {
-  .channel-compare .compare.compare-column-range-medium-2 .compare-header-row,
-  .channel-compare .compare.compare-column-range-medium-2 .compare-row {
+  .page-productDetails .pdp-tabs .tabContent .channel-compare .compare.compare-column-range-medium-2 .compare-header-row,
+  .page-productDetails .pdp-tabs .tabContent .channel-compare .compare.compare-column-range-medium-2 .compare-row {
     --column-gap: 28px;
   }
 }
 
 @media only screen and (max-width: 734px) {
-  .channel-compare .compare.compare-column-range-small-5 .compare-header-row,
-  .channel-compare .compare.compare-column-range-small-5 .compare-row {
+  .page-productDetails .pdp-tabs .tabContent .channel-compare .compare.compare-column-range-small-5 .compare-header-row,
+  .page-productDetails .pdp-tabs .tabContent .channel-compare .compare.compare-column-range-small-5 .compare-row {
     --column-gap: 18px;
   }
 }
 
 @media only screen and (max-width: 734px) {
-  .channel-compare .compare.compare-column-range-small-4 .compare-header-row,
-  .channel-compare .compare.compare-column-range-small-4 .compare-row {
+  .page-productDetails .pdp-tabs .tabContent .channel-compare .compare.compare-column-range-small-4 .compare-header-row,
+  .page-productDetails .pdp-tabs .tabContent .channel-compare .compare.compare-column-range-small-4 .compare-row {
     --column-gap: 18px;
   }
 }
 
 @media only screen and (max-width: 734px) {
-  .channel-compare .compare.compare-column-range-small-3 .compare-header-row,
-  .channel-compare .compare.compare-column-range-small-3 .compare-row {
+  .page-productDetails .pdp-tabs .tabContent .channel-compare .compare.compare-column-range-small-3 .compare-header-row,
+  .page-productDetails .pdp-tabs .tabContent .channel-compare .compare.compare-column-range-small-3 .compare-row {
     --column-gap: 18px;
   }
 }
 
 @media only screen and (max-width: 734px) {
-  .channel-compare .compare.compare-column-range-small-2 .compare-header-row,
-  .channel-compare .compare.compare-column-range-small-2 .compare-row {
+  .page-productDetails .pdp-tabs .tabContent .channel-compare .compare.compare-column-range-small-2 .compare-header-row,
+  .page-productDetails .pdp-tabs .tabContent .channel-compare .compare.compare-column-range-small-2 .compare-row {
     --column-gap: 18px;
   }
 }
 
-.channel-compare .compare-header-row,
-.channel-compare .compare-row {
+.page-productDetails .pdp-tabs .tabContent .channel-compare .compare-header-row,
+.page-productDetails .pdp-tabs .tabContent .channel-compare .compare-row {
   --column-gap: 16px;
   display: grid;
   column-gap: var(--column-gap);
@@ -2709,106 +2709,106 @@ Mixin to define padding per viewport and column number
 }
 
 @media only screen and (max-width: 1068px) {
-  .channel-compare .compare-header-row,
-  .channel-compare .compare-row {
+  .page-productDetails .pdp-tabs .tabContent .channel-compare .compare-header-row,
+  .page-productDetails .pdp-tabs .tabContent .channel-compare .compare-row {
     --column-gap: 28px;
   }
 }
 
 @media only screen and (max-width: 734px) {
-  .channel-compare .compare-header-row,
-  .channel-compare .compare-row {
+  .page-productDetails .pdp-tabs .tabContent .channel-compare .compare-header-row,
+  .page-productDetails .pdp-tabs .tabContent .channel-compare .compare-row {
     --column-gap: 18px;
   }
 }
 
-.channel-compare .compare-row {
+.page-productDetails .pdp-tabs .tabContent .channel-compare .compare-row {
   margin-bottom: 40px;
 }
 
-.channel-compare .compare-row.compare-template-border-top .compare-column {
+.page-productDetails .pdp-tabs .tabContent .channel-compare .compare-row.compare-template-border-top .compare-column {
   border-top: 1px solid #d6d6d6;
   padding-top: 30px;
 }
 
 @media only screen and (max-width: 1068px) {
-  .channel-compare .compare-row.compare-template-border-top .compare-column {
+  .page-productDetails .pdp-tabs .tabContent .channel-compare .compare-row.compare-template-border-top .compare-column {
     padding-top: 30px;
   }
 }
 
 @media only screen and (max-width: 734px) {
-  .channel-compare .compare-row.compare-template-border-top .compare-column {
+  .page-productDetails .pdp-tabs .tabContent .channel-compare .compare-row.compare-template-border-top .compare-column {
     padding-top: 20px;
   }
 }
 
-.channel-compare .compare-row.compare-template-border-bottom .compare-column {
+.page-productDetails .pdp-tabs .tabContent .channel-compare .compare-row.compare-template-border-bottom .compare-column {
   border-bottom: 1px solid #d6d6d6;
   margin-bottom: 30px;
 }
 
 @media only screen and (max-width: 1068px) {
-  .channel-compare .compare-row.compare-template-border-bottom .compare-column {
+  .page-productDetails .pdp-tabs .tabContent .channel-compare .compare-row.compare-template-border-bottom .compare-column {
     margin-bottom: 30px;
   }
 }
 
 @media only screen and (max-width: 734px) {
-  .channel-compare .compare-row.compare-template-border-bottom .compare-column {
+  .page-productDetails .pdp-tabs .tabContent .channel-compare .compare-row.compare-template-border-bottom .compare-column {
     margin-bottom: 20px;
   }
 }
 
-.channel-compare .compare-row.compare-template-space-bottom .compare-column {
+.page-productDetails .pdp-tabs .tabContent .channel-compare .compare-row.compare-template-space-bottom .compare-column {
   margin-bottom: 30px;
 }
 
 @media only screen and (max-width: 1068px) {
-  .channel-compare .compare-row.compare-template-space-bottom .compare-column {
+  .page-productDetails .pdp-tabs .tabContent .channel-compare .compare-row.compare-template-space-bottom .compare-column {
     margin-bottom: 30px;
   }
 }
 
 @media only screen and (max-width: 734px) {
-  .channel-compare .compare-row.compare-template-space-bottom .compare-column {
+  .page-productDetails .pdp-tabs .tabContent .channel-compare .compare-row.compare-template-space-bottom .compare-column {
     margin-bottom: 20px;
   }
 }
 
-.channel-compare .compare-row:last-child {
+.page-productDetails .pdp-tabs .tabContent .channel-compare .compare-row:last-child {
   margin-bottom: 0;
 }
 
-.channel-compare .compare-header-row {
+.page-productDetails .pdp-tabs .tabContent .channel-compare .compare-header-row {
   margin: 0;
 }
 
-.channel-compare .compare-rowheader {
+.page-productDetails .pdp-tabs .tabContent .channel-compare .compare-rowheader {
   order: -1;
 }
 
-.channel-compare .compare-rowheader,
-.channel-compare .compare-rowheader-style {
+.page-productDetails .pdp-tabs .tabContent .channel-compare .compare-rowheader,
+.page-productDetails .pdp-tabs .tabContent .channel-compare .compare-rowheader-style {
   grid-column: 1 / var(--grid-column) span;
 }
 
-.channel-compare .compare-columnheader,
-.channel-compare .compare-column {
+.page-productDetails .pdp-tabs .tabContent .channel-compare .compare-columnheader,
+.page-productDetails .pdp-tabs .tabContent .channel-compare .compare-column {
   display: none;
   box-sizing: border-box;
 }
 
-.channel-compare .compare-columnheader strong,
-.channel-compare .compare-column strong {
+.page-productDetails .pdp-tabs .tabContent .channel-compare .compare-columnheader strong,
+.page-productDetails .pdp-tabs .tabContent .channel-compare .compare-column strong {
   display: block;
 }
 
-.channel-compare .compare.with-fullwidthrowheader .compare-rowheader {
+.page-productDetails .pdp-tabs .tabContent .channel-compare .compare.with-fullwidthrowheader .compare-rowheader {
   width: 100%;
 }
 
-.channel-compare .compare.with-fullwidthrowheader .compare-rowheader-style {
+.page-productDetails .pdp-tabs .tabContent .channel-compare .compare.with-fullwidthrowheader .compare-rowheader-style {
   font-size: 24px;
   line-height: 1.1666666667;
   font-weight: 600;
@@ -2822,7 +2822,7 @@ Mixin to define padding per viewport and column number
 }
 
 @media only screen and (max-width: 1068px) {
-  .channel-compare .compare.with-fullwidthrowheader .compare-rowheader-style {
+  .page-productDetails .pdp-tabs .tabContent .channel-compare .compare.with-fullwidthrowheader .compare-rowheader-style {
     font-size: 21px;
     line-height: 1.1904761905;
     font-weight: 600;
@@ -2833,44 +2833,44 @@ Mixin to define padding per viewport and column number
 }
 
 @media only screen and (max-width: 734px) {
-  .channel-compare .compare.with-fullwidthrowheader .compare-rowheader-style {
+  .page-productDetails .pdp-tabs .tabContent .channel-compare .compare.with-fullwidthrowheader .compare-rowheader-style {
     font-size: 17px;
   }
 }
 
 @media only screen and (max-width: 1068px) {
-  .channel-compare .compare.with-fullwidthrowheader .compare-rowheader-style {
+  .page-productDetails .pdp-tabs .tabContent .channel-compare .compare.with-fullwidthrowheader .compare-rowheader-style {
     margin-bottom: 28px;
   }
 }
 
 @media only screen and (max-width: 734px) {
-  .channel-compare .compare.with-fullwidthrowheader .compare-rowheader-style {
+  .page-productDetails .pdp-tabs .tabContent .channel-compare .compare.with-fullwidthrowheader .compare-rowheader-style {
     margin-bottom: 17px;
     padding-bottom: 13px;
   }
 }
 
-.channel-compare .compare.with-fullwidthrowheader .compare-columnheader,
-.channel-compare .compare.with-fullwidthrowheader .compare-column {
+.page-productDetails .pdp-tabs .tabContent .channel-compare .compare.with-fullwidthrowheader .compare-columnheader,
+.page-productDetails .pdp-tabs .tabContent .channel-compare .compare.with-fullwidthrowheader .compare-column {
   text-align: center;
   justify-content: center;
   width: 164px;
 }
 
 @media only screen and (max-width: 734px) {
-  .channel-compare .compare.with-fullwidthrowheader .compare-columnheader,
-  .channel-compare .compare.with-fullwidthrowheader .compare-column {
+  .page-productDetails .pdp-tabs .tabContent .channel-compare .compare.with-fullwidthrowheader .compare-columnheader,
+  .page-productDetails .pdp-tabs .tabContent .channel-compare .compare.with-fullwidthrowheader .compare-column {
     width: 131px;
   }
 }
 
-.channel-compare .compare.with-fullwidthrowheader .compare-columnheader-span,
-.channel-compare .compare.with-fullwidthrowheader .compare-column-span {
+.page-productDetails .pdp-tabs .tabContent .channel-compare .compare.with-fullwidthrowheader .compare-columnheader-span,
+.page-productDetails .pdp-tabs .tabContent .channel-compare .compare.with-fullwidthrowheader .compare-column-span {
   width: 100%;
 }
 
-.channel-compare .compare.with-fullwidthrowheader .mdash-container {
+.page-productDetails .pdp-tabs .tabContent .channel-compare .compare.with-fullwidthrowheader .mdash-container {
   margin: 0;
   padding: 0;
   display: flex;
@@ -2878,23 +2878,23 @@ Mixin to define padding per viewport and column number
   justify-content: center;
 }
 
-.channel-compare .compare.with-fullwidthrowheader .mdash-container .mdash {
+.page-productDetails .pdp-tabs .tabContent .channel-compare .compare.with-fullwidthrowheader .mdash-container .mdash {
   font-size: 17px;
 }
 
 @media only screen and (max-width: 1068px) {
-  .channel-compare .compare.with-fullwidthrowheader .mdash-container .mdash {
+  .page-productDetails .pdp-tabs .tabContent .channel-compare .compare.with-fullwidthrowheader .mdash-container .mdash {
     font-size: 14px;
   }
 }
 
 @media only screen and (max-width: 734px) {
-  .channel-compare .compare.with-fullwidthrowheader .mdash-container .mdash {
+  .page-productDetails .pdp-tabs .tabContent .channel-compare .compare.with-fullwidthrowheader .mdash-container .mdash {
     font-size: 12px;
   }
 }
 
-.channel-compare .compare .copy.helvetica-neue {
+.page-productDetails .pdp-tabs .tabContent .channel-compare .compare .copy.helvetica-neue {
   font-weight: 500;
   line-height: 1.235;
 }
@@ -2907,32 +2907,32 @@ Mixin to define padding per viewport and column number
   width: 100%;
 }
 
-.channel-compare .selector-table {
+.page-productDetails .pdp-tabs .tabContent .channel-compare .selector-table {
   padding-top: 10px;
   margin-bottom: 40px;
 }
 
 @media only screen and (max-width: 1068px) {
-  .channel-compare .selector-table {
+  .page-productDetails .pdp-tabs .tabContent .channel-compare .selector-table {
     margin-bottom: 40px;
   }
 }
 
 @media only screen and (max-width: 734px) {
-  .channel-compare .selector-table {
+  .page-productDetails .pdp-tabs .tabContent .channel-compare .selector-table {
     margin-bottom: 25px;
   }
 }
 
-.channel-compare .selector-table .compare-row {
+.page-productDetails .pdp-tabs .tabContent .channel-compare .selector-table .compare-row {
   margin: 0;
 }
 
-.channel-compare .selector-table .compare-rowheader {
+.page-productDetails .pdp-tabs .tabContent .channel-compare .selector-table .compare-rowheader {
   height: 0;
 }
 
-.channel-compare .selector-element {
+.page-productDetails .pdp-tabs .tabContent .channel-compare .selector-element {
   position: relative;
   width: 100%;
   border: none;
@@ -2942,7 +2942,7 @@ Mixin to define padding per viewport and column number
 }
 
 @media only screen and (max-width: 1068px) {
-  .channel-compare .selector-element {
+  .page-productDetails .pdp-tabs .tabContent .channel-compare .selector-element {
     border: none;
     border-bottom: 1px solid #d6d6d6;
     border-radius: 0px;
@@ -2950,20 +2950,20 @@ Mixin to define padding per viewport and column number
 }
 
 @media only screen and (max-width: 734px) {
-  .channel-compare .selector-element {
+  .page-productDetails .pdp-tabs .tabContent .channel-compare .selector-element {
     border: none;
     border-bottom: 1px solid #d6d6d6;
     border-radius: 0px;
   }
 
-  .channel-compare .selector-element:hover {
+  .page-productDetails .pdp-tabs .tabContent .channel-compare .selector-element:hover {
     border: none;
     border-radius: 0px;
     border-bottom: 1px solid #d6d6d6;
   }
 }
 
-.channel-compare .selector-element::before {
+.page-productDetails .pdp-tabs .tabContent .channel-compare .selector-element::before {
   content: "";
   width: 40px;
   position: absolute;
@@ -2983,13 +2983,13 @@ Mixin to define padding per viewport and column number
 }
 
 @media only screen and (max-width: 1068px) {
-  .channel-compare .selector-element::before {
+  .page-productDetails .pdp-tabs .tabContent .channel-compare .selector-element::before {
     width: 40px;
   }
 }
 
 @media only screen and (max-width: 734px) {
-  .channel-compare .selector-element::before {
+  .page-productDetails .pdp-tabs .tabContent .channel-compare .selector-element::before {
     height: 100%;
     width: 40px;
     right: 5px;
@@ -2997,12 +2997,12 @@ Mixin to define padding per viewport and column number
 }
 
 @media only screen and (max-width: 734px) {
-  .channel-compare .selector-element {
+  .page-productDetails .pdp-tabs .tabContent .channel-compare .selector-element {
     margin-right: 0;
   }
 }
 
-.channel-compare .selector-dropdown {
+.page-productDetails .pdp-tabs .tabContent .channel-compare .selector-dropdown {
   font-size: 14px;
   line-height: 1.4285914286;
   font-weight: 600;
@@ -3024,34 +3024,34 @@ Mixin to define padding per viewport and column number
   padding-right: 15px;
 }
 
-.channel-compare .selector-dropdown:focus {
+.page-productDetails .pdp-tabs .tabContent .channel-compare .selector-dropdown:focus {
   border-radius: 0px;
   box-shadow: 0 0 0 4px rgba(131, 192, 253, 0.5);
   width: 166px;
 }
 
 @media only screen and (max-width: 734px) {
-  .channel-compare .selector-dropdown:focus {
+  .page-productDetails .pdp-tabs .tabContent .channel-compare .selector-dropdown:focus {
     box-sizing: content-box;
   }
 }
 
 @media only screen and (max-width: 734px) {
-  .channel-compare .selector-dropdown {
+  .page-productDetails .pdp-tabs .tabContent .channel-compare .selector-dropdown {
     width: 100%;
     padding-bottom: 11px;
     padding-left: 0px;
     padding-top: 11px;
   }
 
-  .channel-compare .selector-dropdown:focus {
+  .page-productDetails .pdp-tabs .tabContent .channel-compare .selector-dropdown:focus {
     width: 122px;
     border-radius: 0px;
     border: none;
   }
 }
 
-.channel-compare .selector-icon {
+.page-productDetails .pdp-tabs .tabContent .channel-compare .selector-icon {
   display: block;
   position: absolute;
   top: 1px;
@@ -3065,11 +3065,11 @@ Mixin to define padding per viewport and column number
   right: 0;
 }
 
-.channel-compare .selector-icon:after {
+.page-productDetails .pdp-tabs .tabContent .channel-compare .selector-icon:after {
   pointer-events: none;
 }
 
-.channel-compare .static-dropdown {
+.page-productDetails .pdp-tabs .tabContent .channel-compare .static-dropdown {
   font-size: 14px;
   line-height: 1.4285914286;
   font-weight: 600;
@@ -3083,30 +3083,30 @@ Mixin to define padding per viewport and column number
   padding-bottom: 7px;
 }
 
-.channel-compare .badge {
+.page-productDetails .pdp-tabs .tabContent .channel-compare .badge {
   min-width: 0;
   margin: 0 auto;
 }
 
-.channel-compare .badge .badge-content {
+.page-productDetails .pdp-tabs .tabContent .channel-compare .badge .badge-content {
   margin: 0;
   padding: 0;
 }
 
-.channel-compare .compare.with-fullwidthrowheader .mdash-container {
+.page-productDetails .pdp-tabs .tabContent .channel-compare .compare.with-fullwidthrowheader .mdash-container {
   margin-top: 0px;
 }
 
-.channel-compare .compare.with-fullwidthrowheader .mdash-container .mdash {
+.page-productDetails .pdp-tabs .tabContent .channel-compare .compare.with-fullwidthrowheader .mdash-container .mdash {
   font-weight: 600;
 }
 
-.channel-compare .badge-content {
+.page-productDetails .pdp-tabs .tabContent .channel-compare .badge-content {
   margin: 0;
   padding: 0;
 }
 
-.channel-compare .badge-content .badge-caption {
+.page-productDetails .pdp-tabs .tabContent .channel-compare .badge-content .badge-caption {
   position: static;
   margin-bottom: 0;
   font-size: 17px;
@@ -3119,7 +3119,7 @@ Mixin to define padding per viewport and column number
 }
 
 @media only screen and (max-width: 1068px) {
-  .channel-compare .badge-content .badge-caption {
+  .page-productDetails .pdp-tabs .tabContent .channel-compare .badge-content .badge-caption {
     font-size: 14px;
     line-height: 1.4285914286;
     font-weight: 600;
@@ -3130,7 +3130,7 @@ Mixin to define padding per viewport and column number
 }
 
 @media only screen and (max-width: 734px) {
-  .channel-compare .badge-content .badge-caption {
+  .page-productDetails .pdp-tabs .tabContent .channel-compare .badge-content .badge-caption {
     font-size: 12px;
     line-height: 1.3333733333;
     font-weight: 600;
@@ -3141,27 +3141,27 @@ Mixin to define padding per viewport and column number
 }
 
 @media only screen and (max-width: 1068px) {
-  .channel-compare .badge-content .badge-caption {
+  .page-productDetails .pdp-tabs .tabContent .channel-compare .badge-content .badge-caption {
     font-size: 12px;
   }
 }
 
-.channel-compare .badge-content .badge-caption p {
+.page-productDetails .pdp-tabs .tabContent .channel-compare .badge-content .badge-caption p {
   color: rgb(29, 29, 31);
   font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 }
 
-.channel-compare .badge-content .badge-caption.copy {
+.page-productDetails .pdp-tabs .tabContent .channel-compare .badge-content .badge-caption.copy {
   font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
   font-weight: 500;
   line-height: 1.4;
 }
 
-.channel-compare .badge-content .badge-caption.copy.mdash {
+.page-productDetails .pdp-tabs .tabContent .channel-compare .badge-content .badge-caption.copy.mdash {
   font-weight: 600;
 }
 
-.channel-compare .badge-content .badge-value {
+.page-productDetails .pdp-tabs .tabContent .channel-compare .badge-content .badge-value {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Helvetica Neue",
     "Helvetica", "Arial", sans-serif;
   font-size: 64px;
@@ -3177,7 +3177,7 @@ Mixin to define padding per viewport and column number
 }
 
 @media only screen and (max-width: 1068px) {
-  .channel-compare .badge-content .badge-value {
+  .page-productDetails .pdp-tabs .tabContent .channel-compare .badge-content .badge-value {
     font-size: 48px;
     line-height: 1.0834933333;
     font-weight: 600;
@@ -3188,7 +3188,7 @@ Mixin to define padding per viewport and column number
 }
 
 @media only screen and (max-width: 734px) {
-  .channel-compare .badge-content .badge-value {
+  .page-productDetails .pdp-tabs .tabContent .channel-compare .badge-content .badge-value {
     font-size: 32px;
     line-height: 1.125;
     font-weight: 600;
@@ -3199,77 +3199,77 @@ Mixin to define padding per viewport and column number
 }
 
 @media only screen and (max-width: 1068px) {
-  .channel-compare .badge-content .badge-value {
+  .page-productDetails .pdp-tabs .tabContent .channel-compare .badge-content .badge-value {
     font-size: 21px;
   }
 }
 
 @media only screen and (max-width: 734px) {
-  .channel-compare .badge-content .badge-value {
+  .page-productDetails .pdp-tabs .tabContent .channel-compare .badge-content .badge-value {
     font-size: 21px;
   }
 }
 
-.channel-compare .badge-content .badge-elevated .badge-caption p {
+.page-productDetails .pdp-tabs .tabContent .channel-compare .badge-content .badge-elevated .badge-caption p {
   color: rgb(134, 134, 139);
 }
 
-.channel-compare .badge-content .image-icon-wrapper {
+.page-productDetails .pdp-tabs .tabContent .channel-compare .badge-content .image-icon-wrapper {
   position: relative;
   text-align: center;
   margin-bottom: -4px;
 }
 
-.channel-compare .badge-content .image-icon-wrapper figure {
+.page-productDetails .pdp-tabs .tabContent .channel-compare .badge-content .image-icon-wrapper figure {
   display: block;
   margin: auto;
 }
 
-.channel-compare .badge-content .badge-row {
+.page-productDetails .pdp-tabs .tabContent .channel-compare .badge-content .badge-row {
   padding: 0 10px;
 }
 
 @media only screen and (max-width: 1068px) {
-  .channel-compare .badge-content .badge-row {
+  .page-productDetails .pdp-tabs .tabContent .channel-compare .badge-content .badge-row {
     padding: 0 10px;
   }
 }
 
 @media only screen and (max-width: 734px) {
-  .channel-compare .badge-content .badge-row {
+  .page-productDetails .pdp-tabs .tabContent .channel-compare .badge-content .badge-row {
     padding: 0 0;
   }
 }
 
-.channel-compare .badge-content .badge-row:not(:last-child) {
+.page-productDetails .pdp-tabs .tabContent .channel-compare .badge-content .badge-row:not(:last-child) {
   margin-bottom: 15px;
 }
 
-.channel-compare .badge-content .badge-row:first-child .copy {
+.page-productDetails .pdp-tabs .tabContent .channel-compare .badge-content .badge-row:first-child .copy {
   margin-bottom: -4px;
 }
 
-.channel-compare .badge-content .badge-row:first-child .badge-value:not(.copy) {
+.page-productDetails .pdp-tabs .tabContent .channel-compare .badge-content .badge-row:first-child .badge-value:not(.copy) {
   margin-bottom: -3px;
 }
 
-.channel-compare .compare-template-border-bottom .button-container {
+.page-productDetails .pdp-tabs .tabContent .channel-compare .compare-template-border-bottom .button-container {
   margin-bottom: 30px;
 }
 
 @media only screen and (max-width: 1068px) {
-  .channel-compare .compare-template-border-bottom .button-container {
+  .page-productDetails .pdp-tabs .tabContent .channel-compare .compare-template-border-bottom .button-container {
     margin-bottom: 30px;
   }
 }
 
 @media only screen and (max-width: 734px) {
-  .channel-compare .compare-template-border-bottom .button-container {
+  .page-productDetails .pdp-tabs .tabContent .channel-compare .compare-template-border-bottom .button-container {
     margin-bottom: 20px;
   }
 }
 
-.channel-compare .button {
+.page-productDetails .pdp-tabs .tabContent .channel-compare .button {
   background: transparent;
   border: 1px solid rgb(29, 29, 31);
   color: rgb(29, 29, 31);
@@ -3282,7 +3282,7 @@ Mixin to define padding per viewport and column number
 }
 
 @media only screen and (max-width: 734px) {
-  .channel-compare .button {
+  .page-productDetails .pdp-tabs .tabContent .channel-compare .button {
     padding-left: 12px;
     padding-right: 12px;
     padding-top: 4px;
@@ -3291,44 +3291,44 @@ Mixin to define padding per viewport and column number
   }
 }
 
-.channel-compare .button:hover {
+.page-productDetails .pdp-tabs .tabContent .channel-compare .button:hover {
   background: transparent;
   border: 1px solid rgb(110, 110, 115);
   color: rgb(110, 110, 115);
 }
 
-.channel-compare .button-container {
+.page-productDetails .pdp-tabs .tabContent .channel-compare .button-container {
   margin-bottom: 55px;
 }
 
 @media only screen and (max-width: 1068px) {
-  .channel-compare .button-container {
+  .page-productDetails .pdp-tabs .tabContent .channel-compare .button-container {
     margin-bottom: 55px;
   }
 }
 
 @media only screen and (max-width: 734px) {
-  .channel-compare .button-container {
+  .page-productDetails .pdp-tabs .tabContent .channel-compare .button-container {
     margin-bottom: 32px;
   }
 }
 
-.channel-compare .button-container .copy.helvetica-neue {
+.page-productDetails .pdp-tabs .tabContent .channel-compare .button-container .copy.helvetica-neue {
   font-weight: 400;
 }
 
-.channel-compare .multi-row .compare-template-preview-item-color-nav {
+.page-productDetails .pdp-tabs .tabContent .channel-compare .multi-row .compare-template-preview-item-color-nav {
   margin-bottom: 40px;
 }
 
 @media only screen and (max-width: 1068px) {
-  .channel-compare .multi-row .compare-template-preview-item-color-nav {
+  .page-productDetails .pdp-tabs .tabContent .channel-compare .multi-row .compare-template-preview-item-color-nav {
     margin-bottom: 40px;
   }
 }
 
 @media only screen and (max-width: 734px) {
-  .channel-compare .multi-row .compare-template-preview-item-color-nav {
+  .page-productDetails .pdp-tabs .tabContent .channel-compare .multi-row .compare-template-preview-item-color-nav {
     margin-bottom: 20px;
   }
 }
@@ -3355,20 +3355,20 @@ Mixin to define padding per viewport and column number
   }
 }
 
-.channel-compare .multi-row .row-colors {
+.page-productDetails .pdp-tabs .tabContent .channel-compare .multi-row .row-colors {
   padding-bottom: 0;
   margin-bottom: 0;
   margin-top: 0;
 }
 
-.channel-compare .row-colors {
+.page-productDetails .pdp-tabs .tabContent .channel-compare .row-colors {
   width: 100%;
   text-align: center;
   padding-bottom: 27px;
   margin-top: 27px;
 }
 
-.channel-compare .row-colors .colornav-heading {
+.page-productDetails .pdp-tabs .tabContent .channel-compare .row-colors .colornav-heading {
   font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
   font-weight: 500;
   letter-spacing: 0;
@@ -3377,78 +3377,78 @@ Mixin to define padding per viewport and column number
 }
 
 @media only screen and (max-width: 1068px) {
-  .channel-compare .row-colors .colornav-heading {
+  .page-productDetails .pdp-tabs .tabContent .channel-compare .row-colors .colornav-heading {
     padding-bottom: 15px;
     font-size: 12px;
   }
 }
 
 @media only screen and (max-width: 734px) {
-  .channel-compare .row-colors .colornav-heading {
+  .page-productDetails .pdp-tabs .tabContent .channel-compare .row-colors .colornav-heading {
     padding-bottom: 15px;
     font-size: 12px;
   }
 }
 
 @media only screen and (max-width: 1068px) {
-  .channel-compare .row-colors {
+  .page-productDetails .pdp-tabs .tabContent .channel-compare .row-colors {
     padding-bottom: 27px;
     margin-top: 27px;
   }
 }
 
 @media only screen and (max-width: 734px) {
-  .channel-compare .row-colors {
+  .page-productDetails .pdp-tabs .tabContent .channel-compare .row-colors {
     padding-bottom: 17px;
     margin-top: 17px;
   }
 }
 
-.channel-compare .row-colors.row-colors-none {
+.page-productDetails .pdp-tabs .tabContent .channel-compare .row-colors.row-colors-none {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.channel-compare .row-colors.row-colors-none .colornav-items {
+.page-productDetails .pdp-tabs .tabContent .channel-compare .row-colors.row-colors-none .colornav-items {
   display: block;
 }
 
-.channel-compare .colornav-item-row {
+.page-productDetails .pdp-tabs .tabContent .channel-compare .colornav-item-row {
   display: flex;
   justify-content: center;
 }
 
-.channel-compare .colornav-item-row:not(:first-child) {
+.page-productDetails .pdp-tabs .tabContent .channel-compare .colornav-item-row:not(:first-child) {
   margin-top: 10px;
 }
 
-.channel-compare .colornav-item-row .colornav-item {
+.page-productDetails .pdp-tabs .tabContent .channel-compare .colornav-item-row .colornav-item {
   margin-left: 0;
   margin-right: 6px;
 }
 
-.channel-compare .colornav-item-row .colornav-item:last-child {
+.page-productDetails .pdp-tabs .tabContent .channel-compare .colornav-item-row .colornav-item:last-child {
   margin-right: 0;
 }
 
-.channel-compare .colornav-swatch {
+.page-productDetails .pdp-tabs .tabContent .channel-compare .colornav-swatch {
   width: 12px;
   height: 12px;
 }
 
-.channel-compare .swatch-image {
+.page-productDetails .pdp-tabs .tabContent .channel-compare .swatch-image {
   position: relative;
   left: calc(100% + 5px);
 }
 
 @media only screen and (max-width: 734px) {
-  .channel-compare .swatch-image {
+  .page-productDetails .pdp-tabs .tabContent .channel-compare .swatch-image {
     left: calc(100% + 3px);
   }
 }
 
-.channel-compare .embed-image {
+.page-productDetails .pdp-tabs .tabContent .channel-compare .embed-image {
   align-self: flex-end;
 }
 
@@ -3456,47 +3456,47 @@ Mixin to define padding per viewport and column number
   height: 100%;
 }
 
-.channel-compare .compare-template-display-block .price-container {
+.page-productDetails .pdp-tabs .tabContent .channel-compare .compare-template-display-block .price-container {
   display: block !important;
 }
 
-.channel-compare .compare-template-font-color strong {
+.page-productDetails .pdp-tabs .tabContent .channel-compare .compare-template-font-color strong {
   color: var(--font-color);
 }
 
-.channel-compare .compare-template-preview-item-pricing {
+.page-productDetails .pdp-tabs .tabContent .channel-compare .compare-template-preview-item-pricing {
   margin-bottom: 30px;
 }
 
 @media only screen and (max-width: 1068px) {
-  .channel-compare .compare-template-preview-item-pricing {
+  .page-productDetails .pdp-tabs .tabContent .channel-compare .compare-template-preview-item-pricing {
     margin-bottom: 30px;
   }
 }
 
 @media only screen and (max-width: 734px) {
-  .channel-compare .compare-template-preview-item-pricing {
+  .page-productDetails .pdp-tabs .tabContent .channel-compare .compare-template-preview-item-pricing {
     margin-bottom: 20px;
   }
 }
 
-.channel-compare .compare-template-preview-item-pricing:last-child {
+.page-productDetails .pdp-tabs .tabContent .channel-compare .compare-template-preview-item-pricing:last-child {
   margin-bottom: 30px;
 }
 
 @media only screen and (max-width: 1068px) {
-  .channel-compare .compare-template-preview-item-pricing:last-child {
+  .page-productDetails .pdp-tabs .tabContent .channel-compare .compare-template-preview-item-pricing:last-child {
     margin-bottom: 30px;
   }
 }
 
 @media only screen and (max-width: 734px) {
-  .channel-compare .compare-template-preview-item-pricing:last-child {
+  .page-productDetails .pdp-tabs .tabContent .channel-compare .compare-template-preview-item-pricing:last-child {
     margin-bottom: 20px;
   }
 }
 
-.channel-compare .price-container {
+.page-productDetails .pdp-tabs .tabContent .channel-compare .price-container {
   font-size: 17px;
   line-height: 1.4705882353;
   font-weight: 600;
@@ -3509,7 +3509,7 @@ Mixin to define padding per viewport and column number
 }
 
 @media only screen and (max-width: 1068px) {
-  .channel-compare .price-container {
+  .page-productDetails .pdp-tabs .tabContent .channel-compare .price-container {
     font-size: 14px;
     line-height: 1.4285914286;
     font-weight: 600;
@@ -3520,7 +3520,7 @@ Mixin to define padding per viewport and column number
 }
 
 @media only screen and (max-width: 734px) {
-  .channel-compare .price-container {
+  .page-productDetails .pdp-tabs .tabContent .channel-compare .price-container {
     font-size: 12px;
     line-height: 1.3333733333;
     font-weight: 600;
@@ -3530,22 +3530,22 @@ Mixin to define padding per viewport and column number
   }
 }
 
-.channel-compare .price-container strong {
+.page-productDetails .pdp-tabs .tabContent .channel-compare .price-container strong {
   font-weight: 500;
 }
 
-.channel-compare .price-container strong {
+.page-productDetails .pdp-tabs .tabContent .channel-compare .price-container strong {
   margin-bottom: 15px;
 }
 
 @media only screen and (max-width: 1068px) {
-  .channel-compare .price-container {
+  .page-productDetails .pdp-tabs .tabContent .channel-compare .price-container {
     font-size: 12px;
   }
 }
 
 @media only screen and (max-width: 734px) {
-  .channel-compare .price-container {
+  .page-productDetails .pdp-tabs .tabContent .channel-compare .price-container {
     font-size: 12px;
   }
 }

@@ -114,8 +114,12 @@ h3 .page-productDetails .pdp-tabs .tabContent .channel-html sup {
 .page-productDetails .pdp-tabs .tabContent .channel-html figure,
 .page-productDetails .pdp-tabs .tabContent .channel-html form,
 .page-productDetails .pdp-tabs .tabContent .channel-html button {
-  margin: auto !important;
+  margin: 0;
   padding: 0;
+}
+
+.page-productDetails .pdp-tabs .tabContent .channel-html .compare-image {
+  margin: auto !important;
 }
 
 .page-productDetails .pdp-tabs .tabContent .channel-html caption {
